@@ -1,9 +1,11 @@
 import React from 'react'
+import { Button } from 'react-bootstrap';
 
 function Home() {
     return (
         <div>
-            <h1>I m Home Page</h1>
+
+
         </div>
     )
 }
