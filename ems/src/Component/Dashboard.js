@@ -1,10 +1,15 @@
 import React from 'react'
+import SidebarMenu from './SidebarMenu'
+import { Container } from 'react-bootstrap'
 
 function Dashboard() {
     return (
-        <div>
-            <h1>Hello Dashboard</h1>
-        </div>
+        <>
+            <SidebarMenu />
+            <Container>
+                <h1>Hello Dashboard hiiSSS</h1>
+            </Container>
+        </>
     )
 }
 
