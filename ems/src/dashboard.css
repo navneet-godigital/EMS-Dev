@@ -3,18 +3,21 @@
   text-align: center;
 } */
 
-.Container {
-  display: flex;
+img,
+svg {
+  vertical-align: middle;
+  font-size: 50px;
 }
 
-.sidenav---sidenav---_2tBP.sidenav---expanded---1KdUL {
-  background: #002447;
-}
-
-.sidenav---navicon---3gCRo {
+.text-center {
+  text-align: center !important;
   font-size: 20px;
 }
 
-.sidenav---sidenav---_2tBP {
-  background: #002447;
+.card {
+  background: #3BC6AC;
+}
+
+a:link {
+  text-decoration: none;
 }
