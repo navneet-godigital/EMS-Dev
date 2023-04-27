@@ -1,4 +1,3 @@
-import SidebarMenu from './SidebarMenu'
 import React from 'react'
 
 const Student = () => {

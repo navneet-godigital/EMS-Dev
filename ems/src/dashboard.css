@@ -31,16 +31,16 @@ a:link {
 
 .sidebarMenu {
   display: flex;
-  position: fixed;
 }
 
 main {
   width: 100%;
-  padding: 20px;
+  padding: 5px;
 }
 
+
 .sidebar {
-  background: #000;
+  background: #1d444b;
   color: #fff;
   height: 100vh;
   width: 200px;
@@ -54,7 +54,8 @@ main {
 }
 
 .logo {
-  font-size: 30px;
+  font-size: 25px;
+  margin-top: 7px;
 }
 
 .bars {
@@ -84,5 +85,6 @@ main {
 
 .icon,
 .link_text {
-  font-size: 20px;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
 }

@@ -3,9 +3,8 @@ import {
     FaTh,
     FaBars,
     FaUserAlt,
-    FaCommentAlt,
-    FaShoppingBag,
-    FaThList,
+    FaEnvelope,
+    FaListOl,
     FaBook
 } from "react-icons/fa";
 import { NavLink } from 'react-router-dom';
@@ -31,27 +30,27 @@ const Sidebar = ({ children }) => {
             icon: <FaBook />
         },
         {
-            path: "/f",
-            name: "Comment",
-            icon: <FaCommentAlt />
+            path: "/final-exam-request",
+            name: "Final Exam",
+            icon: <FaBook />
         },
         {
-            path: "/product",
-            name: "Product",
-            icon: <FaShoppingBag />
+            path: "/notice",
+            name: "Notice",
+            icon: <FaListOl />
         },
         {
-            path: "/productList",
-            name: "Product List",
-            icon: <FaThList />
+            path: "/inbox",
+            name: "Inbox",
+            icon: <FaEnvelope />
         }
     ]
     return (
         <div className="sidebarMenu">
             <div style={{ width: isOpen ? "200px" : "50px" }} className="sidebar">
                 <div className="top_section">
-                    <h1 style={{ display: isOpen ? "block" : "none" }} className="logo">Logo</h1>
-                    <div style={{ marginLeft: isOpen ? "50px" : "0px" }} className="bars">
+                    <h1 style={{ display: isOpen ? "block" : "none" }} className="logo">EMS</h1>
+                    <div style={{ marginLeft: isOpen ? "55px" : "0px" }} className="bars">
                         <FaBars onClick={toggle} />
                     </div>
                 </div>
