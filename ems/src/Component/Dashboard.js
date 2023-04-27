@@ -10,8 +10,8 @@ function Dashboard() {
             <div className="container-fluid">
                 <div className="row text-center">
 
-                    <div className="col-6 mt-2 col-md-2 mt-md-5">
-                    </div>
+                    {/* <div className="col-6 mt-2 col-md-2 mt-md-5">
+                    </div> */}
 
 
 
@@ -69,8 +69,9 @@ function Dashboard() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-6 mt-2 col-md-2 mt-md-5">
-                    </div>
+
+                    {/* <div className="col-6 mt-2 col-md-2 mt-md-5">
+                    </div> */}
 
                     <div className="col-6 mt-2 col-md-2 mt-md-4">
                         <div className="shadow text-white card p-2" style={{ backgroundColor: "#3BC6AC" }}>

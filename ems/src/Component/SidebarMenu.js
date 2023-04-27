@@ -1,62 +1,72 @@
-import React from 'react';
+import React, { useState } from 'react';
 import {
-    CDBSidebar,
-    CDBSidebarContent,
-    CDBSidebarFooter,
-    CDBSidebarHeader,
-    CDBSidebarMenu,
-    CDBSidebarMenuItem,
-} from 'cdbreact';
+    FaTh,
+    FaBars,
+    FaUserAlt,
+    FaCommentAlt,
+    FaShoppingBag,
+    FaThList,
+    FaBook
+} from "react-icons/fa";
 import { NavLink } from 'react-router-dom';
 
 
-const SidebarMenu = () => {
+const Sidebar = ({ children }) => {
+    const [isOpen, setIsOpen] = useState(false);
+    const toggle = () => setIsOpen(!isOpen);
+    const menuItem = [
+        {
+            path: "/dashboard",
+            name: "Dashboard",
+            icon: <FaTh />
+        },
+        {
+            path: "/student",
+            name: "Student",
+            icon: <FaUserAlt />
+        },
+        {
+            path: "/exam",
+            name: "Exam",
+            icon: <FaBook />
+        },
+        {
+            path: "/f",
+            name: "Comment",
+            icon: <FaCommentAlt />
+        },
+        {
+            path: "/product",
+            name: "Product",
+            icon: <FaShoppingBag />
+        },
+        {
+            path: "/productList",
+            name: "Product List",
+            icon: <FaThList />
+        }
+    ]
     return (
-        <div style={{ display: 'flex', height: '100vh', overflow: 'scroll initial', position: 'fixed' }}>
-            <CDBSidebar textColor="#fff" backgroundColor="#333">
-                <CDBSidebarHeader prefix={<i className="fa fa-bars fa-large"></i>}>
-                    <a href="/dashboard" className="text-decoration-none" style={{ color: 'inherit' }}>
-                        EMS
-                    </a>
-                </CDBSidebarHeader>
-
-
-                <CDBSidebarContent className="sidebar-content">
-                    <CDBSidebarMenu>
-                        <NavLink exact to="/dashboard" activeClassName="activeClicked">
-                            <CDBSidebarMenuItem icon="th-large">Dashboard</CDBSidebarMenuItem>
-                        </NavLink>
-                        <NavLink exact to="/student" activeClassName="activeClicked">
-                            <CDBSidebarMenuItem icon="user">Student</CDBSidebarMenuItem>
-                        </NavLink>
-                        <NavLink exact to="/profile" activeClassName="activeClicked">
-                            <CDBSidebarMenuItem icon="book">Exam</CDBSidebarMenuItem>
-                        </NavLink>
-                        <NavLink exact to="/analytics" activeClassName="activeClicked">
-                            <CDBSidebarMenuItem icon="book">Final Exam</CDBSidebarMenuItem>
-                        </NavLink>
-
-
-                        <NavLink exact to="/hero404" target="_blank" activeClassName="activeClicked">
-                            <CDBSidebarMenuItem icon="exclamation-circle">404 page</CDBSidebarMenuItem>
-                        </NavLink>
-                    </CDBSidebarMenu>
-                </CDBSidebarContent>
-
-
-                <CDBSidebarFooter style={{ textAlign: 'center' }}>
-                    <div
-                        style={{
-                            padding: '20px 5px',
-                        }}
-                    >
-                        Sidebar Footer
+        <div className="sidebarMenu">
+            <div style={{ width: isOpen ? "200px" : "50px" }} className="sidebar">
+                <div className="top_section">
+                    <h1 style={{ display: isOpen ? "block" : "none" }} className="logo">Logo</h1>
+                    <div style={{ marginLeft: isOpen ? "50px" : "0px" }} className="bars">
+                        <FaBars onClick={toggle} />
                     </div>
-                </CDBSidebarFooter>
-            </CDBSidebar>
+                </div>
+                {
+                    menuItem.map((item, index) => (
+                        <NavLink to={item.path} key={index} className="link" activeclassName="active">
+                            <div className="icon">{item.icon}</div>
+                            <div style={{ display: isOpen ? "block" : "none" }} className="link_text">{item.name}</div>
+                        </NavLink>
+                    ))
+                }
+            </div>
+            <main>{children}</main>
         </div>
     );
 };
 
-
-export default SidebarMenu;
+export default Sidebar;
