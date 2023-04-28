@@ -88,3 +88,38 @@ main {
   font-size: 18px;
   font-family: 'Montserrat', sans-serif;
 }
+
+.list {
+  margin: 0px 0px;
+  padding: 25px 22px 20px;
+  background: #1d444b;
+  color: #fff;
+  border-radius: 5px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.tableList {
+  margin: 15px 0px;
+  overflow: scroll;
+  width: 96%;
+  height: 84%;
+  position: fixed;
+}
+
+.table>thead {
+  background: #1188A6;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.table>tbody {
+  vertical-align: inherit;
+  background: #1188a629;
+  font-family: 'Montserrat', sans-serif;
+}
+
+input[type=checkbox],
+input[type=radio] {
+  width: 40px;
+  height: 15px;
+}
