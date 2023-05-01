@@ -5,6 +5,7 @@ import Dashboard from './Component/Dashboard'
 import Home from './Website/Home';
 import Student from './Component/Student';
 import Sidebar from './Component/SidebarMenu';
+import AddStudent from './Component/AddStudent'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Routes>
           <Route extact path="/dashboard" element={<Dashboard />}></Route>
           <Route extact path="/student" element={<Student />}></Route>
+          <Route extact path="/addstudent" element={<AddStudent />}></Route>
         </Routes>
       </Sidebar>
     </div>
