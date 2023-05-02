@@ -18,6 +18,13 @@ svg {
   background: #3BC6AC;
 }*/
 
+html,
+body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden
+}
+
 a:link {
   text-decoration: none;
 }
@@ -101,9 +108,8 @@ main {
 .tableList {
   margin: 15px 0px;
   overflow: scroll;
-  width: 96%;
-  height: 84%;
-  position: fixed;
+  width: 100%;
+  height: auto;
 }
 
 .table>thead {
@@ -123,3 +129,16 @@ input[type=radio] {
   width: 40px;
   height: 15px;
 }
+
+.form-label {
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 1rem;
+}
+
+.form-control {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* :root {
+  position: fixed;
+} */

@@ -1,21 +1,19 @@
 import React from 'react'
 import { Form, Row, Col, Button, Container } from 'react-bootstrap'
 
-function AddStudent() {
+function EditStudent() {
     return (
         <>
             <div className='list'>
                 <Row>
                     <Col>
-                        <h2>Add Student</h2>
+                        <h2>Edit Student</h2>
                     </Col>
                     <Col style={{ textAlign: "right" }}>
                         {/* <Button style={{ backgroundColor: "#1188A6", fontFamily: "'Montserrat', sans-serif" }}>Add Student</Button>&nbsp; */}
                     </Col>
                 </Row>
             </div >
-
-
 
             <Form className="form-container mt-2 p-5" style={{ backgroundColor: "#D9ECF1", borderRadius: "5px" }}>
                 <Container>
@@ -119,11 +117,11 @@ function AddStudent() {
                             </Form.Group>
                         </Col>
                     </Row>
-                    <Button className='mt-3 mb-5' style={{ backgroundColor: "#1188A6", fontFamily: "'Montserrat', sans-serif" }}>Submit</Button>{' '}
+                    <Button className='mt-3 mb-5' style={{ backgroundColor: "#1188A6", fontFamily: "'Montserrat', sans-serif" }}>Update</Button>{' '}
                 </Container>
             </Form>
         </>
     )
 }
 
-export default AddStudent
+export default EditStudent
