@@ -92,7 +92,7 @@ main {
 
 .icon,
 .link_text {
-  font-size: 18px;
+  font-size: 15px;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -109,7 +109,7 @@ main {
   margin: 15px 0px;
   overflow: scroll;
   width: 100%;
-  height: auto;
+  height: 55%;
 }
 
 .table>thead {

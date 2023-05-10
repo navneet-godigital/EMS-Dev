@@ -52,7 +52,7 @@ const Student = () => {
                         <tr>
                             <td><input type="checkbox" /></td>
                             <td>#73929929 </td>
-                            <td>Demo Full Name </td>
+                            <td>Demo Full Name tuiyiu ouoiu </td>
                             <td>Demo Full Name </td>
                             <td>Demo Full Name </td>
                             <td>Demo Full Name </td>
