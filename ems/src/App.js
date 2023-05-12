@@ -1,4 +1,4 @@
-
+import './dashboard.css'
 import { Routes, Route } from 'react-router-dom';
 import Dashboard from './Component/Dashboard'
 import Student from './Component/Student';
