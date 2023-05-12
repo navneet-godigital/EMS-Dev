@@ -1,5 +1,5 @@
 import Carousel from 'react-bootstrap/Carousel';
-function Hero1() {
+function Hero() {
     return (
         <div>
             <Carousel variant="dark" className="container1">
@@ -27,4 +27,4 @@ function Hero1() {
     );
 }
 
-export default Hero1;
+export default Hero;
