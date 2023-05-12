@@ -5,12 +5,6 @@ import {
     FaUserAlt,
     FaEnvelope,
     FaListOl,
-    FaQuestionCircle,
-    FaRegEnvelope,
-    FaWallet,
-    FaRegMoneyBillAlt,
-    FaCamera,
-    FaLock,
     FaBook
 } from "react-icons/fa";
 import { NavLink } from 'react-router-dom';
@@ -41,11 +35,6 @@ const Sidebar = ({ children }) => {
             icon: <FaBook />
         },
         {
-            path: "/final-exam-request",
-            name: "Add Question",
-            icon: <FaQuestionCircle />
-        },
-        {
             path: "/notice",
             name: "Notice",
             icon: <FaListOl />
@@ -54,59 +43,14 @@ const Sidebar = ({ children }) => {
             path: "/inbox",
             name: "Inbox",
             icon: <FaEnvelope />
-        },
-        {
-            path: "/",
-            name: "Contact",
-            icon: <FaRegEnvelope />
-        },
-        {
-            path: "/",
-            name: "Wallet",
-            icon: <FaWallet />
-        },
-        {
-            path: "/",
-            name: "Fees Management",
-            icon: <FaRegMoneyBillAlt />
-        },
-        {
-            path: "/",
-            name: "All Test",
-            icon: <FaBook />
-        },
-        {
-            path: "/",
-            name: "Zoom LiveClasses",
-            icon: <FaCamera />
-        },
-        {
-            path: "/",
-            name: "Gmeet Live Classes",
-            icon: <FaCamera />
-        },
-        {
-            path: "/",
-            name: "Message",
-            icon: <FaEnvelope />
-        },
-        {
-            path: "/",
-            name: "Users",
-            icon: <FaUserAlt />
-        },
-        {
-            path: "/",
-            name: "Change Password",
-            icon: <FaLock />
         }
     ]
     return (
         <div className="sidebarMenu">
             <div style={{ width: isOpen ? "200px" : "50px" }} className="sidebar">
-                <div className="top_section" style={{ padding: "10px 15px" }}>
+                <div className="top_section">
                     <h1 style={{ display: isOpen ? "block" : "none" }} className="logo">EMS</h1>
-                    <div style={{ marginLeft: isOpen ? "95px" : "0px" }} className="bars">
+                    <div style={{ marginLeft: isOpen ? "55px" : "0px" }} className="bars">
                         <FaBars onClick={toggle} />
                     </div>
                 </div>

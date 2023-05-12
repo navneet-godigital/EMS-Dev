@@ -83,6 +83,7 @@ function Header() {
                                                 <ul className="sub-menu">
                                                     <li><a href="/Students">Student Zone</a></li>
                                                     <li><a href="/Book">E-Book for Student</a></li>
+                                                    <li><a href="/Login">Scholarship test</a></li>
                                                     <li><a href="/Placements">Placement</a></li>
                                                     <li><a href="/Qaueries">Students Query</a></li>
                                                     <li><a href="/Login">Login panel</a></li>

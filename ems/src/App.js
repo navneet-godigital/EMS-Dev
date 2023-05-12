@@ -1,12 +1,7 @@
 
-import './dashboard.css';
 import { Routes, Route } from 'react-router-dom';
 import Dashboard from './Component/Dashboard'
 import Student from './Component/Student';
-import Sidebar from './Component/SidebarMenu';
-import AddStudent from './Component/AddStudent'
-import EditStudent from './Component/EditStudent';
-
 
 //Home page
 import './Website.css'
@@ -30,10 +25,9 @@ import HomeI from './Website/Process/Ragister/HomeI';
 import HomeF from './Website/Process/NTTFrenchise/HomeF';
 import HomeT from './Website/Process/Topcenter/HomeT';
 
-
 function App() {
   return (
-    <div className="App">
+    <div>
       {/* Website Routing */}
       <Routes>
         <Route extact path="/" element={<Home />}></Route>
@@ -60,15 +54,12 @@ function App() {
 
 
 
+
       {/* dashboard Routing */}
-      <Sidebar>
-        <Routes>
-          <Route extact path="/dashboard" element={<Dashboard />}></Route>
-          <Route extact path="/student" element={<Student />}></Route>
-          <Route extact path="/addstudent" element={<AddStudent />}></Route>
-          <Route extact path="/editstudent" element={<EditStudent />}></Route>
-        </Routes>
-      </Sidebar>
+      <Routes>
+        <Route extact path="/dashboard" element={<Dashboard />}></Route>
+        <Route extact path="/student" element={<Student />}></Route>
+      </Routes>
     </div>
   );
 }

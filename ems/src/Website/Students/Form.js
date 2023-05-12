@@ -59,7 +59,7 @@ function Form() {
                             </label>
                         </div>
                     </div>
-                    <button type="submit" className="btn btn-primary">Sign in</button>
+                    <button type="submit" className="btn btn-primary">Send Us Your Enquiry</button>
                 </form>
             </div>
         </div>

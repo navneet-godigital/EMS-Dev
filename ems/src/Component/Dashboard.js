@@ -1,35 +1,11 @@
 import React from 'react'
-
 import {
     FcPieChart,
     FcReadingEbook,
     FcInspection,
     FcTodoList,
-    FcQuestions,
-    FcBusinessContact,
-    FcFeedback,
-    FcSettings,
-    FcReading,
-    FcBusinessman,
-    FcFaq,
     FcCollaboration
 } from "react-icons/fc";
-import {
-    GiWhiteBook,
-    GiWallet,
-    GiMoneyStack
-} from "react-icons/gi";
-import {
-    TbPassword,
-    TbFlagFilled
-} from "react-icons/tb";
-import {
-    GoListOrdered,
-    GoChecklist,
-    GoLink,
-    GoDeviceDesktop
-} from "react-icons/go";
-
 import { NavLink } from 'react-router-dom';
 
 function Dashboard() {
@@ -75,8 +51,8 @@ function Dashboard() {
                         <div className="shadow text-white card p-2" style={{ backgroundColor: "#1188A6" }}>
                             <div className="d-flex align-items-center">
                                 <div className="mt-2 mb-3 w-100">
-                                    <h1 className="mb-0 mt-0 textLeft"><FcQuestions /> </h1>
-                                    <span className="link_text text-center">Add Question</span>
+                                    <h1 className="mb-0 mt-0 textLeft"><FcInspection /> </h1>
+                                    <span className="link_text text-center">Final Exam Request</span>
                                 </div>
                             </div>
                         </div>
@@ -105,8 +81,8 @@ function Dashboard() {
                         <div className="shadow text-white card p-2" style={{ backgroundColor: "#1188A6" }}>
                             <div className="d-flex align-items-center">
                                 <div className="mt-2 mb-3 w-100">
-                                    <h1 className="mb-0 mt-0 textLeft"><FcBusinessContact /> </h1>
-                                    <span className="link_text text-center">Contact</span>
+                                    <h1 className="mb-0 mt-0 textLeft"><FcPieChart /> </h1>
+                                    <span className="link_text text-center">Dashbord</span>
                                 </div>
                             </div>
                         </div>
@@ -115,8 +91,8 @@ function Dashboard() {
                         <div className="shadow text-white card p-2" style={{ backgroundColor: "#1188A6" }}>
                             <div className="d-flex align-items-center">
                                 <div className="mt-2 mb-3 w-100">
-                                    <h1 className="mb-0 mt-0 textLeft"><GiWallet /> </h1>
-                                    <span className="link_text text-center">Wallet</span>
+                                    <h1 className="mb-0 mt-0 textLeft"><FcPieChart /> </h1>
+                                    <span className="link_text text-center">Dashbord</span>
                                 </div>
                             </div>
                         </div>
@@ -125,8 +101,8 @@ function Dashboard() {
                         <div className="shadow text-white card p-2" style={{ backgroundColor: "#1188A6" }}>
                             <div className="d-flex align-items-center">
                                 <div className="mt-2 mb-3 w-100">
-                                    <h1 className="mb-0 mt-0 textLeft"><FcInspection /> </h1>
-                                    <span className="link_text text-center">All Test</span>
+                                    <h1 className="mb-0 mt-0 textLeft"><FcPieChart /> </h1>
+                                    <span className="link_text text-center">Dashbord</span>
                                 </div>
                             </div>
                         </div>
@@ -135,8 +111,8 @@ function Dashboard() {
                         <div className="shadow text-white card p-2" style={{ backgroundColor: "#1188A6" }}>
                             <div className="d-flex align-items-center">
                                 <div className="mt-2 mb-3 w-100">
-                                    <h1 className="mb-0 mt-0 textLeft"><FcFeedback /> </h1>
-                                    <span className="link_text text-center">Message</span>
+                                    <h1 className="mb-0 mt-0 textLeft"><FcPieChart /> </h1>
+                                    <span className="link_text text-center">Dashbord</span>
                                 </div>
                             </div>
                         </div>
@@ -145,8 +121,8 @@ function Dashboard() {
                         <div className="shadow text-white card p-2" style={{ backgroundColor: "#1188A6" }}>
                             <div className="d-flex align-items-center">
                                 <div className="mt-2 mb-3 w-100">
-                                    <h1 className="mb-0 mt-0 textLeft"><FcBusinessman /> </h1>
-                                    <span className="link_text text-center">Users</span>
+                                    <h1 className="mb-0 mt-0 textLeft"><FcPieChart /> </h1>
+                                    <span className="link_text text-center">Dashbord</span>
                                 </div>
                             </div>
                         </div>
@@ -155,8 +131,8 @@ function Dashboard() {
                         <div className="shadow text-white card p-2" style={{ backgroundColor: "#1188A6" }}>
                             <div className="d-flex align-items-center">
                                 <div className="mt-2 mb-3 w-100">
-                                    <h1 className="mb-0 mt-0 textLeft"><TbPassword /> </h1>
-                                    <span className="link_text text-center">Change Password</span>
+                                    <h1 className="mb-0 mt-0 textLeft"><FcPieChart /> </h1>
+                                    <span className="link_text text-center">Dashbord</span>
                                 </div>
                             </div>
                         </div>
@@ -165,8 +141,8 @@ function Dashboard() {
                         <div className="shadow text-white card p-2" style={{ backgroundColor: "#1188A6" }}>
                             <div className="d-flex align-items-center">
                                 <div className="mt-2 mb-3 w-100">
-                                    <h1 className="mb-0 mt-0 textLeft"><FcFeedback /> </h1>
-                                    <span className="link_text text-center">Enquiry Management</span>
+                                    <h1 className="mb-0 mt-0 textLeft"><FcPieChart /> </h1>
+                                    <span className="link_text text-center">Dashbord</span>
                                 </div>
                             </div>
                         </div>
@@ -175,8 +151,8 @@ function Dashboard() {
                         <div className="shadow text-white card p-2" style={{ backgroundColor: "#1188A6" }}>
                             <div className="d-flex align-items-center">
                                 <div className="mt-2 mb-3 w-100">
-                                    <h1 className="mb-0 mt-0 textLeft"><FcReading /> </h1>
-                                    <span className="link_text text-center">Book Management</span>
+                                    <h1 className="mb-0 mt-0 textLeft"><FcPieChart /> </h1>
+                                    <span className="link_text text-center">Dashbord</span>
                                 </div>
                             </div>
                         </div>
@@ -185,8 +161,8 @@ function Dashboard() {
                         <div className="shadow text-white card p-2" style={{ backgroundColor: "#1188A6" }}>
                             <div className="d-flex align-items-center">
                                 <div className="mt-2 mb-3 w-100">
-                                    <h1 className="mb-0 mt-0 textLeft"><FcReadingEbook /> </h1>
-                                    <span className="link_text text-center">Ebooks by Head Office</span>
+                                    <h1 className="mb-0 mt-0 textLeft"><FcPieChart /> </h1>
+                                    <span className="link_text text-center">Dashbord</span>
                                 </div>
                             </div>
                         </div>
@@ -195,8 +171,8 @@ function Dashboard() {
                         <div className="shadow text-white card p-2" style={{ backgroundColor: "#1188A6" }}>
                             <div className="d-flex align-items-center">
                                 <div className="mt-2 mb-3 w-100">
-                                    <h1 className="mb-0 mt-0 textLeft"><GiWhiteBook /> </h1>
-                                    <span className="link_text text-center">SCR</span>
+                                    <h1 className="mb-0 mt-0 textLeft"><FcPieChart /> </h1>
+                                    <span className="link_text text-center">Dashbord</span>
                                 </div>
                             </div>
                         </div>
@@ -205,8 +181,8 @@ function Dashboard() {
                         <div className="shadow text-white card p-2" style={{ backgroundColor: "#1188A6" }}>
                             <div className="d-flex align-items-center">
                                 <div className="mt-2 mb-3 w-100">
-                                    <h1 className="mb-0 mt-0 textLeft"><GoListOrdered /> </h1>
-                                    <span className="link_text text-center">Top Centers List</span>
+                                    <h1 className="mb-0 mt-0 textLeft"><FcPieChart /> </h1>
+                                    <span className="link_text text-center">Dashbord</span>
                                 </div>
                             </div>
                         </div>
@@ -215,8 +191,8 @@ function Dashboard() {
                         <div className="shadow text-white card p-2" style={{ backgroundColor: "#1188A6" }}>
                             <div className="d-flex align-items-center">
                                 <div className="mt-2 mb-3 w-100">
-                                    <h1 className="mb-0 mt-0 textLeft"><GoChecklist /> </h1>
-                                    <span className="link_text text-center">Center Certificate List</span>
+                                    <h1 className="mb-0 mt-0 textLeft"><FcPieChart /> </h1>
+                                    <span className="link_text text-center">Dashbord</span>
                                 </div>
                             </div>
                         </div>
@@ -225,118 +201,8 @@ function Dashboard() {
                         <div className="shadow text-white card p-2" style={{ backgroundColor: "#1188A6" }}>
                             <div className="d-flex align-items-center">
                                 <div className="mt-2 mb-3 w-100">
-                                    <h1 className="mb-0 mt-0 textLeft"><GoChecklist /> </h1>
-                                    <span className="link_text text-center">Live Courses</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-6 mt-2 col-md-2 mt-md-4">
-                        <div className="shadow text-white card p-2" style={{ backgroundColor: "#1188A6" }}>
-                            <div className="d-flex align-items-center">
-                                <div className="mt-2 mb-3 w-100">
-                                    <h1 className="mb-0 mt-0 textLeft"><GoLink /> </h1>
-                                    <span className="link_text text-center">Online Admission Link</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-6 mt-2 col-md-2 mt-md-4">
-                        <div className="shadow text-white card p-2" style={{ backgroundColor: "#1188A6" }}>
-                            <div className="d-flex align-items-center">
-                                <div className="mt-2 mb-3 w-100">
-                                    <h1 className="mb-0 mt-0 textLeft"><GoDeviceDesktop /> </h1>
-                                    <span className="link_text text-center">Zoom Class</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-6 mt-2 col-md-2 mt-md-4">
-                        <div className="shadow text-white card p-2" style={{ backgroundColor: "#1188A6" }}>
-                            <div className="d-flex align-items-center">
-                                <div className="mt-2 mb-3 w-100">
-                                    <h1 className="mb-0 mt-0 textLeft"><GoDeviceDesktop /> </h1>
-                                    <span className="link_text text-center">Zoom Meeting</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-6 mt-2 col-md-2 mt-md-4">
-                        <div className="shadow text-white card p-2" style={{ backgroundColor: "#1188A6" }}>
-                            <div className="d-flex align-items-center">
-                                <div className="mt-2 mb-3 w-100">
-                                    <h1 className="mb-0 mt-0 textLeft"><GoDeviceDesktop /> </h1>
-                                    <span className="link_text text-center">Zoom Instant Meeting</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-6 mt-2 col-md-2 mt-md-4">
-                        <div className="shadow text-white card p-2" style={{ backgroundColor: "#1188A6" }}>
-                            <div className="d-flex align-items-center">
-                                <div className="mt-2 mb-3 w-100">
-                                    <h1 className="mb-0 mt-0 textLeft"><GoDeviceDesktop /> </h1>
-                                    <span className="link_text text-center">Gmeet Live</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-6 mt-2 col-md-2 mt-md-4">
-                        <div className="shadow text-white card p-2" style={{ backgroundColor: "#1188A6" }}>
-                            <div className="d-flex align-items-center">
-                                <div className="mt-2 mb-3 w-100">
-                                    <h1 className="mb-0 mt-0 textLeft"><FcFaq /> </h1>
-                                    <span className="link_text text-center">FAQ</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-6 mt-2 col-md-2 mt-md-4">
-                        <div className="shadow text-white card p-2" style={{ backgroundColor: "#1188A6" }}>
-                            <div className="d-flex align-items-center">
-                                <div className="mt-2 mb-3 w-100">
-                                    <h1 className="mb-0 mt-0 textLeft"><TbFlagFilled /> </h1>
-                                    <span className="link_text text-center">Policy</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-6 mt-2 col-md-2 mt-md-4">
-                        <div className="shadow text-white card p-2" style={{ backgroundColor: "#1188A6" }}>
-                            <div className="d-flex align-items-center">
-                                <div className="mt-2 mb-3 w-100">
-                                    <h1 className="mb-0 mt-0 textLeft"><GoLink /> </h1>
-                                    <span className="link_text text-center">Open Website</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-6 mt-2 col-md-2 mt-md-4">
-                        <div className="shadow text-white card p-2" style={{ backgroundColor: "#1188A6" }}>
-                            <div className="d-flex align-items-center">
-                                <div className="mt-2 mb-3 w-100">
-                                    <h1 className="mb-0 mt-0 textLeft"><FcSettings /> </h1>
-                                    <span className="link_text text-center">Web Settings</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-6 mt-2 col-md-2 mt-md-4">
-                        <div className="shadow text-white card p-2" style={{ backgroundColor: "#1188A6" }}>
-                            <div className="d-flex align-items-center">
-                                <div className="mt-2 mb-3 w-100">
-                                    <h1 className="mb-0 mt-0 textLeft"><GiWhiteBook /> </h1>
-                                    <span className="link_text text-center">Download Admit Card</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-6 mt-2 col-md-2 mt-md-4">
-                        <div className="shadow text-white card p-2" style={{ backgroundColor: "#1188A6" }}>
-                            <div className="d-flex align-items-center">
-                                <div className="mt-2 mb-3 w-100">
-                                    <h1 className="mb-0 mt-0 textLeft"><GiMoneyStack /> </h1>
-                                    <span className="link_text text-center">Fees Management</span>
+                                    <h1 className="mb-0 mt-0 textLeft"><FcPieChart /> </h1>
+                                    <span className="link_text text-center">Dashbord</span>
                                 </div>
                             </div>
                         </div>

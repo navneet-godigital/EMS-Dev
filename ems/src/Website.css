@@ -1712,15 +1712,6 @@ ul {
     margin-bottom: -8px;
 }
 
-.ctp-contact-form .btn-primary {
-    padding: 20px 30px;
-    border-radius: 50px;
-    text-transform: capitalize;
-    font-size: 16px;
-    font-weight: 500;
-    background: linear-gradient(90deg, #ee0979 0%, #ff6a00 100%);
-    border-radius: 50px;
-}
 
 .shadow-inner {
     box-sizing: content-box;
@@ -1787,6 +1778,13 @@ ul {
 
 .card-body {
     background-color: #f6b224;
+    overflow: hidden;
+}
+
+.card,
+.col-sm {
+    padding-top: 30px;
+    padding-bottom: 10px;
 }
 
 .fa {
@@ -1798,10 +1796,6 @@ ul {
     padding-left: 10px;
 }
 
-.container1 {
-    margin-top: 300px;
-    margin-bottom: 30px;
-}
 
 .form-group {
     box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
@@ -1811,13 +1805,6 @@ label {
     font-size: medium;
 }
 
-.text-center {
-    height: 50px;
-    font-size: 35px;
-    font-weight: 600;
-    margin-bottom: 30px;
-}
-
 .form-control {
     height: 50px;
     font-size: 20px;
@@ -1825,17 +1812,16 @@ label {
 }
 
 .btn-primary {
-    padding: 20px 30px;
-    border-radius: 50px;
     text-transform: capitalize;
-    font-size: 16px;
-    font-weight: 500;
+    font-weight: 600;
     background: linear-gradient(90deg, #ee0979 0%, #ff6a00 100%);
-    border-radius: 50px;
+    width: 33%;
+    margin-left: 33%;
+    height: 50px;
 }
 
-.btn-primary:hover {
-    background-color: #4CAF50;
+#submit :hover {
+    background: #4CAF50;
 }
 
 /*=====================================================
