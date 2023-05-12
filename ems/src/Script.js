@@ -6,9 +6,9 @@ $(document).ready(function () {
 
     $(".zoom").hover(function () {
 
-        $(this).addClass('transition');
+        $(this).addclassName('transition');
     }, function () {
 
-        $(this).removeClass('transition');
+        $(this).removeclassName('transition');
     });
 });

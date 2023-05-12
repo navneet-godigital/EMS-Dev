@@ -151,7 +151,7 @@ function Services() {
                                                         </div>
                                                         <div className="col-lg-4 col-md-6 view-clo">
                                                             <div className="view view-first">
-                                                                <div className="icon-div"><img src="../img/Services/class-home-work-icon.webp" width="" height="" alt="classNameWORK & HOMEWORK" /></div>
+                                                                <div className="icon-div"><img src="../img/Services/className-home-work-icon.webp" width="" height="" alt="classNameWORK & HOMEWORK" /></div>
                                                                 <div className="titel-line"></div>
                                                                 <div className="titel-text">classNamework and Homework</div>
                                                                 <div className="text-details">Teachers can easily create assignments and distribute them to students, while students will...</div>

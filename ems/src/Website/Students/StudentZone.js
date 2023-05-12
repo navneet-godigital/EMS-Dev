@@ -17,7 +17,7 @@ function StudentZone() {
                     </div>
                     <div className="card col-sm">
                         <div className="card-body">
-                            <i class='fa fa-address-card'></i>
+                            <i className='fa fa-address-card'></i>
                             <a href="#" className="stretched-link">
                                 Student Verification
                             </a>
@@ -25,7 +25,7 @@ function StudentZone() {
                     </div>
                     <div className="card col-sm">
                         <div className="card-body">
-                            <i class="fa fa-map-pin" aria-hidden="true"></i>
+                            <i className="fa fa-map-pin" aria-hidden="true"></i>
                             <a href="#" className="stretched-link">
                                 Certificate Verification
                             </a>
@@ -33,7 +33,7 @@ function StudentZone() {
                     </div>
                     <div className="card col-sm">
                         <div className="card-body">
-                            <i class="fa fa-map-pin" aria-hidden="true"></i>
+                            <i className="fa fa-map-pin" aria-hidden="true"></i>
                             <a href="#" className="stretched-link">
                                 Online Ragistration
                             </a>
@@ -41,7 +41,7 @@ function StudentZone() {
                     </div>
                     <div className="card col-sm">
                         <div className="card-body">
-                            <i class="fa fa-map-pin" aria-hidden="true"></i>
+                            <i className="fa fa-map-pin" aria-hidden="true"></i>
                             <a href="#" className="stretched-link">
                                 Result Verification
                             </a>

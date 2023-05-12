@@ -58,7 +58,7 @@ function Queries() {
                             </label>
                         </div>
                     </div>
-                    <button type="submit" className="btn btn-primary">Send us your Queries</button>
+                    <button type="submit" className="main-btn">Send us your Queries</button>
                 </div>
             </form>
         </div>

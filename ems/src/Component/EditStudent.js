@@ -40,8 +40,8 @@ function EditStudent() {
                     <Row>
                         <Col>
                             <Form.Group>
-                                <Form.Label>Class</Form.Label>
-                                <Form.Control placeholder='Class' />
+                                <Form.Label>className</Form.Label>
+                                <Form.Control placeholder='className' />
                             </Form.Group>
                         </Col>
                         <Col>

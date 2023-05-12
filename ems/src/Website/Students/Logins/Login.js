@@ -16,7 +16,7 @@ function Login() {
                         </div>
                         <div className="card col-lg">
                             <div className="card-body">
-                                <i class='fa fa-address-card'></i>
+                                <i className='fa fa-address-card'></i>
                                 <a href="#" className="stretched-link">
                                     Student Verification
                                 </a>
@@ -24,7 +24,7 @@ function Login() {
                         </div>
                         <div className="card col-lg">
                             <div className="card-body">
-                                <i class="fa fa-map-pin" aria-hidden="true"></i>
+                                <i className="fa fa-map-pin" aria-hidden="true"></i>
                                 <a href="#" className="stretched-link">
                                     Certificate Verification
                                 </a>
@@ -32,7 +32,7 @@ function Login() {
                         </div>
                         <div className="card col-lg">
                             <div className="card-body">
-                                <i class="fa fa-map-pin" aria-hidden="true"></i>
+                                <i className="fa fa-map-pin" aria-hidden="true"></i>
                                 <a href="#" className="stretched-link">
                                     Center Login
                                 </a>
@@ -43,7 +43,7 @@ function Login() {
                     <div className="row">
                         <div className="card col-lg">
                             <div className="card-body">
-                                <i class="fa fa-map-pin" aria-hidden="true"></i>
+                                <i className="fa fa-map-pin" aria-hidden="true"></i>
                                 <a href="#" className="stretched-link">
                                     Center Verification
                                 </a>
@@ -59,7 +59,7 @@ function Login() {
                         </div>
                         <div className="card col-lg">
                             <div className="card-body">
-                                <i class='fa fa-address-card'></i>
+                                <i className='fa fa-address-card'></i>
                                 <a href="#" className="stretched-link">
                                     Result Verification
                                 </a>
@@ -67,7 +67,7 @@ function Login() {
                         </div>
                         <div className="card col-lg">
                             <div className="card-body">
-                                <i class="fa fa-map-pin" aria-hidden="true"></i>
+                                <i className="fa fa-map-pin" aria-hidden="true"></i>
                                 <a href="#" className="stretched-link">
                                     Center Certificate Verification
                                 </a>

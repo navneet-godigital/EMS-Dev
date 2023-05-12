@@ -11,8 +11,8 @@ function Header() {
                             <div className="col-lg-6">
                                 <div className="header-contact text-lg-left text-center">
                                     <ul>
-                                        <li><i class="fa fa-map-marker" aria-hidden="true" style={{ color: "white" }}></i><span>27 Division St, New Delhi</span></li>
-                                        <li><i class="fa fa-envelope" aria-hidden="true" style={{ color: "white" }}></i><span>ems@yourmail.com</span></li>
+                                        <li><i className="fa fa-map-marker" aria-hidden="true" style={{ color: "white" }}></i><span>27 Division St, New Delhi</span></li>
+                                        <li><i className="fa fa-envelope" aria-hidden="true" style={{ color: "white" }}></i><span>ems@yourmail.com</span></li>
                                     </ul>
                                 </div>
                             </div>

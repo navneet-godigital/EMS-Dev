@@ -49,9 +49,7 @@ function Contact() {
                                                 <div className="help-block with-errors"></div>
                                             </div>
 
-                                            <button type="submit" className="btn btn-primary">Send Us Your Enquiry</button>
-                                            <div id="msgSubmit" className="h3 text-center hidden"></div>
-                                            <div className="clearfix"></div>
+                                            <button type="submit" className="main-btn">Send Us Your Enquiry</button>
                                         </form>
                                     </div>
                                 </div>

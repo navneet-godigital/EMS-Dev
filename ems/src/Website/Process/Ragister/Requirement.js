@@ -16,7 +16,7 @@ function Requirement() {
                             <p><span>1. Building Requirements/Shop for Computer Center Franchise: </span></p>
                             <p>If you have your own Building then you can teach them or not Take a shop on Rent for Open or Franchise of Computer Center.</p>
                             <p><span>2. Machinery Or Computer/Laptopfor NTT Franchise:</span></p>
-                            <p> (For More detail<a href="#" class="link-success">Apply Now)</a></p>
+                            <p> (For More detail<a href="#" className="link-success">Apply Now)</a></p>
                             <p><span>1. Building Requirements/Shop for Computer Center Franchise: </span></p>
                             <p>If you have your own Building then you can teach them or not Take a shop on Rent for Open or Franchise of Computer Center.</p>
                             <p><span>1. Building Requirements/Shop for Computer Center Franchise: </span></p>
@@ -24,7 +24,7 @@ function Requirement() {
                             <p><span>1. Building Requirements/Shop for Computer Center Franchise: </span></p>
                             <p>If you have your own Building then you can teach them or not Take a shop on Rent for Open or Franchise of Computer Center.</p>
                             <p><span>2. Machinery Or Computer/Laptopfor NTT Franchise:</span></p>
-                            <p> (For More detail<a href="#" class="link-success">Apply Now)</a></p>
+                            <p> (For More detail<a href="#" className="link-success">Apply Now)</a></p>
                             <p><span>1. Building Requirements/Shop for Computer Center Franchise: </span></p>
                             <p>If you have your own Building then you can teach them or not Take a shop on Rent for Open or Franchise of Computer Center.</p>
                             <p><span>1. Building Requirements/Shop for Computer Center Franchise: </span></p>
@@ -37,7 +37,7 @@ function Requirement() {
                         <div className="section-title2">
                             <p><span>Course Fee & Marketing of Computer Course:</span></p>
                             <p><span>Course Fee: </span>“Before designing course fee, we need to see our Investment, Course & Surrounding Area.” </p>
-                            <p><span>Marketing: </span>“It is Understandable that the Center has found more than 100 Student within 1 month form center Opening date But Inside many Institutes Not more then 50 Student after 1 year. The Method of Marketing is responsible for all of this. We have formed a team for how to do marketing and how to earn double profit form our institute within 1 year & all of this will be absolutely free of cost for you. To Know more Click on the <a href="#" class="link-success"> Click & Fill the form</a>. Our Team will help you all of this About Course/ Fee/Location ETC. More Than 3000+ Study Center across India are Growing with Us”.</p>
+                            <p><span>Marketing: </span>“It is Understandable that the Center has found more than 100 Student within 1 month form center Opening date But Inside many Institutes Not more then 50 Student after 1 year. The Method of Marketing is responsible for all of this. We have formed a team for how to do marketing and how to earn double profit form our institute within 1 year & all of this will be absolutely free of cost for you. To Know more Click on the <a href="#" className="link-success"> Click & Fill the form</a>. Our Team will help you all of this About Course/ Fee/Location ETC. More Than 3000+ Study Center across India are Growing with Us”.</p>
                         </div>
                         <div className="section-title2">
                             <p><span>Note: A good name will mirror the identity of the Institute. Here are some questions to consider.</span></p>
@@ -50,7 +50,7 @@ function Requirement() {
                         </div>
                         <div className="section-title2">
                             <p>To Register your Computer Center Follow 4 Simple Step/To get Computer Center Follow this Step For computer Center Registration Franchise:</p>
-                            <p><span>1. </span>Apply Now <a href="#" class="link-success">(Fill your Detail in form)</a> Fill this Online form. </p>
+                            <p><span>1. </span>Apply Now <a href="#" className="link-success">(Fill your Detail in form)</a> Fill this Online form. </p>
                             <p><span>2.</span>After that E-Max Team Cont. you.</p>
                             <p><span>3.</span>Download the form & Fill your all Detail on form & Send on our Email with attach your document.</p>
                             <p><span>2.</span>After that E-Max Team Cont. you.</p>

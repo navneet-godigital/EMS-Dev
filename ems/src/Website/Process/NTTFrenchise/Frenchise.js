@@ -56,7 +56,7 @@ function Frenchise() {
                             <p><span>Different Between NCTE approved NTT & NCT  Approved Franchise: </span></p>
                         </div>
                         <div className="about-cont1">
-                            <h3>NTT (Nursery Teacher Training) Course 2 year Diploma course After 12th Class. After This Course Diploma Holder Provide/Give the Education to Children/Student up to Nursery Class. In Market today we Saw so Many Institute Provide NTT Education. E-Max India is one of them. To See our Registration Detail click on this link Today we will talk about whether these courses are done by NCTE or not.</h3>
+                            <h3>NTT (Nursery Teacher Training) Course 2 year Diploma course After 12th className. After This Course Diploma Holder Provide/Give the Education to Children/Student up to Nursery className. In Market today we Saw so Many Institute Provide NTT Education. E-Max India is one of them. To See our Registration Detail click on this link Today we will talk about whether these courses are done by NCTE or not.</h3>
                         </div>
                         <div className="about-cont1">
                             <h3>We want to tell you that this course Used/Conducted by NCTE before 2013, But after 2013 This Course  Stopped doing by NCTE. & this all detail (Recognised Institutions) available on NCTE Official Website.  Now this course is not done by NCTE.  Now all Institute Provide this course Without NCTE, This Course is Very Important for Self Employment & Job. </h3>

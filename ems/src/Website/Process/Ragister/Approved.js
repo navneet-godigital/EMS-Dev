@@ -22,27 +22,27 @@ function Approved() {
                             <h3>Some Commons Course List For Computer Center Franchise in India</h3>
                         </div>
                         <div className="section-title2">
-                            <a href="#" class="link-success">DOA </a>
-                            <a href="#" class="link-success">HDCS</a>
-                            <a href="#" class="link-success">ADIT</a>
-                            <a href="#" class="link-success">Digital Marketing</a>
-                            <a href="#" class="link-success">Ios App Developer</a>
-                            <a href="#" class="link-success">PGDCA</a>
-                            <a href="#" class="link-success">Android Training</a>
-                            <a href="#" class="link-success">Java Training</a>
-                            <a href="#" class="link-success">NTT Fire and Safety</a>
-                            <a href="#" class="link-success">Digital Marketing</a>
-                            <a href="#" class="link-success">Ios App Developer</a>
-                            <a href="#" class="link-success">PGDCA</a>
-                            <a href="#" class="link-success">Android Training</a>
-                            <a href="#" class="link-success">Java Training</a>
-                            <a href="#" class="link-success">NTT Fire and Safety</a>
-                            <a href="#" class="link-success">Digital Marketing</a>
-                            <a href="#" class="link-success">Ios App Developer</a>
-                            <a href="#" class="link-success">Fashion Designing</a>
-                            <a href="#" class="link-success">Android Training</a>
-                            <a href="#" class="link-success">Java Training</a>
-                            <a href="#" class="link-success"> YOGA</a>
+                            <a href="#" className="link-success">DOA </a>
+                            <a href="#" className="link-success">HDCS</a>
+                            <a href="#" className="link-success">ADIT</a>
+                            <a href="#" className="link-success">Digital Marketing</a>
+                            <a href="#" className="link-success">Ios App Developer</a>
+                            <a href="#" className="link-success">PGDCA</a>
+                            <a href="#" className="link-success">Android Training</a>
+                            <a href="#" className="link-success">Java Training</a>
+                            <a href="#" className="link-success">NTT Fire and Safety</a>
+                            <a href="#" className="link-success">Digital Marketing</a>
+                            <a href="#" className="link-success">Ios App Developer</a>
+                            <a href="#" className="link-success">PGDCA</a>
+                            <a href="#" className="link-success">Android Training</a>
+                            <a href="#" className="link-success">Java Training</a>
+                            <a href="#" className="link-success">NTT Fire and Safety</a>
+                            <a href="#" className="link-success">Digital Marketing</a>
+                            <a href="#" className="link-success">Ios App Developer</a>
+                            <a href="#" className="link-success">Fashion Designing</a>
+                            <a href="#" className="link-success">Android Training</a>
+                            <a href="#" className="link-success">Java Training</a>
+                            <a href="#" className="link-success"> YOGA</a>
                         </div>
                         <div className="section-title2">
                             <h3>Some Marketing Trending Course:</h3>
@@ -63,7 +63,7 @@ function Approved() {
                             <p><span>Computer Courses Eligibility/affiliation/Admission, Fees:</span></p>
                         </div>
                         <div className="about-cont1">
-                            <h3>To Get Course Fee Eligibility & Admission fee <a href="#" class="link-success">click on this link.</a></h3>
+                            <h3>To Get Course Fee Eligibility & Admission fee <a href="#" className="link-success">click on this link.</a></h3>
                         </div>
                         <div className="section-title2">
                             <h3>Computer Course in India</h3>

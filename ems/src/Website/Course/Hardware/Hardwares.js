@@ -31,7 +31,7 @@ function Hardwares() {
                                                         <div className="accordion-item">
                                                             <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                                                                 Three Month Course List.
-                                                                <i class="fa fa-arrow-circle-o-down " style={{ float: "right" }}></i>
+                                                                <i className="fa fa-arrow-circle-o-down " style={{ float: "right" }}></i>
                                                             </button>
                                                             <div id="collapseOne" className="accordion-collapse collapse" data-bs-parent="#FaqAccordion">
                                                                 <div className="accordion-body">
@@ -122,7 +122,7 @@ function Hardwares() {
                                                         <div className="accordion-item">
                                                             <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                                                 Certificate in office Automation (COA) 3 Months
-                                                                <i class="fa fa-arrow-circle-o-down" style={{ float: "right" }}></i>
+                                                                <i className="fa fa-arrow-circle-o-down" style={{ float: "right" }}></i>
                                                             </button>
                                                             <div id="collapseTwo" className="accordion-collapse collapse" data-bs-parent="#FaqAccordion">
                                                                 <div className="accordion-body">
@@ -137,7 +137,7 @@ function Hardwares() {
                                                         <div className="accordion-item">
                                                             <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                                                 Certificate in office Automation (COA) 3 Months
-                                                                <i class="fa fa-arrow-circle-o-down" style={{ float: "right" }}></i>
+                                                                <i className="fa fa-arrow-circle-o-down" style={{ float: "right" }}></i>
                                                             </button>
                                                             <div id="collapseThree" className="accordion-collapse collapse" data-bs-parent="#FaqAccordion">
                                                                 <div className="accordion-body">
@@ -152,7 +152,7 @@ function Hardwares() {
                                                         <div className="accordion-item">
                                                             <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
                                                                 Certificate in office Automation (COA) 3 Months
-                                                                <i class="fa fa-arrow-circle-o-down" style={{ float: "right" }}></i>
+                                                                <i className="fa fa-arrow-circle-o-down" style={{ float: "right" }}></i>
                                                             </button>
                                                             <div id="collapsefour" className="accordion-collapse collapse" data-bs-parent="#FaqAccordion">
                                                                 <div className="accordion-body">
@@ -167,7 +167,7 @@ function Hardwares() {
                                                         <div className="accordion-item">
                                                             <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                                                                 Certificate in office Automation (COA) 3 Months
-                                                                <i class="fa fa-arrow-circle-o-down" style={{ float: "right" }}></i>
+                                                                <i className="fa fa-arrow-circle-o-down" style={{ float: "right" }}></i>
                                                             </button>
                                                             <div id="collapseFive" className="accordion-collapse collapse" data-bs-parent="#FaqAccordion">
                                                                 <div className="accordion-body">
@@ -181,7 +181,7 @@ function Hardwares() {
                                                         <div className="accordion-item">
                                                             <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
                                                                 Six Month Course List.
-                                                                <i class="fa fa-arrow-circle-o-down " style={{ float: "right" }}></i>
+                                                                <i className="fa fa-arrow-circle-o-down " style={{ float: "right" }}></i>
                                                             </button>
                                                             <div id="collapseSix" className="accordion-collapse collapse" data-bs-parent="#FaqAccordion">
                                                                 <div className="accordion-body">
@@ -271,7 +271,7 @@ function Hardwares() {
                                                         <div className="accordion-item">
                                                             <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
                                                                 Certificate in office Automation (COA) 6 Months
-                                                                <i class="fa fa-arrow-circle-o-down" style={{ float: "right" }}></i>
+                                                                <i className="fa fa-arrow-circle-o-down" style={{ float: "right" }}></i>
                                                             </button>
                                                             <div id="collapseSeven" className="accordion-collapse collapse" data-bs-parent="#FaqAccordion">
                                                                 <div className="accordion-body">
@@ -285,7 +285,7 @@ function Hardwares() {
                                                         <div className="accordion-item">
                                                             <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
                                                                 Certificate in office Automation (COA) 6 Months
-                                                                <i class="fa fa-arrow-circle-o-down" style={{ float: "right" }}></i>
+                                                                <i className="fa fa-arrow-circle-o-down" style={{ float: "right" }}></i>
                                                             </button>
                                                             <div id="collapseEight" className="accordion-collapse collapse" data-bs-parent="#FaqAccordion">
                                                                 <div className="accordion-body">
@@ -299,7 +299,7 @@ function Hardwares() {
                                                         <div className="accordion-item">
                                                             <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
                                                                 Certificate in office Automation (COA) 6 Months
-                                                                <i class="fa fa-arrow-circle-o-down" style={{ float: "right" }}></i>
+                                                                <i className="fa fa-arrow-circle-o-down" style={{ float: "right" }}></i>
                                                             </button>
                                                             <div id="collapseNine" className="accordion-collapse collapse" data-bs-parent="#FaqAccordion">
                                                                 <div className="accordion-body">
@@ -313,7 +313,7 @@ function Hardwares() {
                                                         <div className="accordion-item">
                                                             <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
                                                                 Certificate in office Automation (COA) 6 Months
-                                                                <i class="fa fa-arrow-circle-o-down" style={{ float: "right" }}></i>
+                                                                <i className="fa fa-arrow-circle-o-down" style={{ float: "right" }}></i>
                                                             </button>
                                                             <div id="collapseTen" className="accordion-collapse collapse" data-bs-parent="#FaqAccordion">
                                                                 <div className="accordion-body">

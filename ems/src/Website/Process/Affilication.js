@@ -22,7 +22,7 @@ function Affilication() {
                             <h3>Start your own IT Education & Training Franchise with E-Max Computer Center</h3>
                         </div>
                         <div className="about-cont1">
-                            <h3>All our trainers are very experienced in their respective field, all Teacher are professional and practical knowledge.  These classes are provided in professional / classroom and online too which helps all student Training in India reach its wider audiences with ease.</h3>
+                            <h3>All our trainers are very experienced in their respective field, all Teacher are professional and practical knowledge.  These classNamees are provided in professional / classNameroom and online too which helps all student Training in India reach its wider audiences with ease.</h3>
                             <h3><span>After the culmination of the Course/Training India /course and affirmation. They get  Training  preparing with the situation arrangement. Right now, our situation group plan position drives and furthermore send understudies to MNCs for interviews through our references. In this way, the confirmation of employment and moderate preparing expense bolster understudies to accomplish their objectives.</span></h3>
                         </div>
                         <div className="section-title2">
