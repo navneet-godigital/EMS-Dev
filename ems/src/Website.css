@@ -1,5 +1,5 @@
 /*===========================
-  Theme default css 
+  EVS Website style CSS
 ===========================*/
 
 
@@ -15,7 +15,7 @@ body {
 }
 
 img {
-    max-width: 100%;
+    max-width: 50%;
 }
 
 a:focus,
@@ -104,8 +104,9 @@ ol {
     height: 100%;
 }
 
-/*===== All Button Style =====*/
-
+/*=====================================================
+  All Button Style
+======================================================*/
 .main-btn {
     display: inline-block;
     margin-left: 33%;
@@ -174,11 +175,6 @@ ol {
 }
 
 .support-button .support {
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     -webkit-box-align: start;
     -ms-flex-align: start;
@@ -189,19 +185,6 @@ ol {
 .support-button .support .cont {
     margin-left: 15px;
     margin-top: -2px;
-}
-
-.support-button .support .cont p {
-    font-size: 13px;
-    color: #8a8a8a;
-    line-height: 18px
-}
-
-.support-button .support .cont span {
-    font-size: 18px;
-    color: #07294d;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
 }
 
 .support-button .button {
@@ -222,30 +205,6 @@ ol {
     box-shadow: 0px 0px 191px 0px rgba(0, 0, 0, 0.06);
     -webkit-animation: sticky 2s;
     animation: sticky 2s;
-}
-
-@-webkit-keyframes sticky {
-    0% {
-        -webkit-transform: translateY(-100%);
-        transform: translateY(-100%)
-    }
-
-    100% {
-        -webkit-transform: translateY(0%);
-        transform: translateY(0%)
-    }
-}
-
-@keyframes sticky {
-    0% {
-        -webkit-transform: translateY(-100%);
-        transform: translateY(-100%)
-    }
-
-    100% {
-        -webkit-transform: translateY(0%);
-        transform: translateY(0%)
-    }
 }
 
 .navigation {
@@ -388,7 +347,9 @@ ol {
     right: 0;
 }
 
-/* Hero section */
+/*=====================================================
+  Hero section css 
+======================================================*/
 .container1 {
     background-image: url(../public/img/hero-bg.jpg);
 }
@@ -399,51 +360,86 @@ ol {
     font-size: 31px;
     font-weight: 800;
     text-transform: uppercase;
-    width: 33%;
+    width: 50%;
     float: right;
 }
 
-.carousel-caption p {
-    color: #00306e;
-    font-size: 18px;
-    font-weight: 500;
-    text-transform: uppercase;
-    margin-bottom: 50px;
-}
-
-@media only screen and (max-width: 450px) {
-    .carousel-caption p {
-        display: none;
-    }
-
-}
-
-@media only screen and (max-width: 450px) {
+@media (max-width: 1215px) {
     .carousel-caption h2 {
         color: #00306e;
-        font-size: 22px;
-        font-weight: 600;
-        text-transform: uppercase;
-        margin-bottom: -100px;
-    }
-}
-
-@media only screen and (max-width: 650px) {
-    .carousel-caption h2 {
-        color: #00306e;
-        font-size: 28px;
+        font-size: 25px;
         font-weight: 700;
         text-transform: uppercase;
-        margin-bottom: 50px;
+        margin-bottom: 100px;
+        width: 50%;
     }
 }
+
+@media (max-width: 915px) {
+    .carousel-caption h2 {
+        color: #00306e;
+        font-size: 20px;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-bottom: 100px;
+        width: 50%;
+    }
+}
+
+@media (max-width: 750px) {
+    .carousel-caption h2 {
+        color: #00306e;
+        font-size: 20px;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-bottom: 100px;
+        width: 50%;
+    }
+}
+
+@media (max-width: 653px) {
+    .carousel-caption h2 {
+        color: #00306e;
+        font-size: 18px;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-bottom: 50px;
+        width: 50%;
+    }
+}
+
+@media (max-width: 550px) {
+    .carousel-caption h2 {
+        color: #00306e;
+        font-size: 15px;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-bottom: 50px;
+        width: 50%;
+    }
+}
+
+@media (max-width: 450px) {
+    .carousel-caption h2 {
+        color: #00306e;
+        font-size: 9px;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-bottom: 0%;
+        width: 50%;
+    }
+}
+
+
 
 .carousel-caption h2 span {
     color: #f6b224;
 }
 
+/*=====================================================
+  ABOUT css 
+======================================================*/
 
-/* Welcom */
 .section-title h1 {
     font-size: 28px;
     margin-bottom: 0;
@@ -609,6 +605,11 @@ ol {
 }
 
 /* service */
+.icon {
+    font-size: 50px;
+    width: 50%;
+}
+
 .services .nav-tabs {
     border-bottom: none;
     justify-content: center;
@@ -843,7 +844,9 @@ ol {
     font-weight: 400;
 }
 
-/* Education */
+/*=====================================================
+  Education CSSS
+======================================================*/
 section {
     padding: 60px 0;
     overflow: hidden;
@@ -1080,11 +1083,9 @@ OUR FEATURED COURSEE WRAP CSS START
     color: #f6b224;
 }
 
-/*
-	  ==============================================================
-		COUNTER  CSS START
-	  ==============================================================
-*/
+/*=====================================================
+  COUNT  CSS
+======================================================*/
 .iq_number_count_bg {
     position: relative;
     background-size: cover;
@@ -1156,9 +1157,7 @@ OUR FEATURED COURSEE WRAP CSS START
 }
 
 ul {
-    margin: 0px;
-    padding: 0px;
-    list-style-type: none;
+    padding-left: 0;
 }
 
 .footer-about {
@@ -1936,7 +1935,9 @@ a {
     text-decoration: none;
 }
 
-/* Computer course */
+/*=====================================================
+  Computer course CSS
+======================================================*/
 /* faq-accordion */
 .ctp-faq-accordion .accordion-item .accordion-button {
     color: white;
@@ -2020,6 +2021,9 @@ td {
     border-radius: 5px;
 }
 
+/*=====================================================
+  Affilication Process  CSS
+======================================================*/
 /* Training Colleges  */
 
 .table>thead>tr>th {

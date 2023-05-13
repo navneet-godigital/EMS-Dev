@@ -18,7 +18,7 @@ function Counter() {
                         <div className="col-md-3 col-sm-3">
                             <div className="iq_counter">
                                 <i className="icon">
-                                    <img src='./img/icon/book-stack.png' alt='' />
+                                    <img src='./img/icon/book-stack.png' alt='' className="ouricon" />
                                 </i>
                                 <span className="counter">1411</span>
                                 <h6>Total Courses</h6>
