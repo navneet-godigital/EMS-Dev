@@ -1,5 +1,5 @@
 import './dashboard.css'
-import { Routes, Route, HashRouter } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Dashboard from './Component/Dashboard'
 import Student from './Component/Student';
 
@@ -29,41 +29,37 @@ function App() {
   return (
     <div>
       {/* Website Routing */}
-      <HashRouter>
-        <Routes>
-          <Route extact path="/" element={<Home />}></Route>
-          <Route extact path="/Aboutus" element={<Home1 />}></Route>
-          <Route extact path="/OurAim" element={<Home2 />}></Route>
-          <Route extact path="/Gallery" element={<Home4 />}></Route>
-          <Route extact path="/Contacts" element={<Home3 />}></Route>
-          <Route extact path="/Course" element={<HomeR />}></Route>
-          <Route extact path="/Students" element={<Home6 />}></Route>
-          <Route extact path="/Book" element={<Home7 />}></Route>
-          <Route extact path="/Login" element={<Home8 />}></Route>
-          <Route extact path="/Placements" element={<Hero9 />}></Route>
-          <Route extact path="/Qaueries" element={<Home10 />}></Route>
-          <Route extact path="/Hardwares" element={<HomeH />}></Route>
-          <Route extact path="/Jobcouurses" element={<HomeJ />}></Route>
-          <Route extact path="/Skill" element={<HomeS />}></Route>
-          <Route extact path="/Process" element={<HomeA />}></Route>
-          <Route extact path="/Reason" element={<HomeP />}></Route>
-          <Route extact path="/Ragister" element={<HomeI />}></Route>
-          <Route extact path="/NTTFrenchise" element={<HomeF />}></Route>
-          <Route extact path="/Topcenter" element={<HomeT />}></Route>
-        </Routes>
-      </HashRouter>
+      <Routes>
+        <Route extact path="/" element={<Home />}></Route>
+        <Route extact path="/Aboutus" element={<Home1 />}></Route>
+        <Route extact path="/OurAim" element={<Home2 />}></Route>
+        <Route extact path="/Gallery" element={<Home4 />}></Route>
+        <Route extact path="/Contacts" element={<Home3 />}></Route>
+        <Route extact path="/Course" element={<HomeR />}></Route>
+        <Route extact path="/Students" element={<Home6 />}></Route>
+        <Route extact path="/Book" element={<Home7 />}></Route>
+        <Route extact path="/Login" element={<Home8 />}></Route>
+        <Route extact path="/Placements" element={<Hero9 />}></Route>
+        <Route extact path="/Qaueries" element={<Home10 />}></Route>
+        <Route extact path="/Hardwares" element={<HomeH />}></Route>
+        <Route extact path="/Jobcouurses" element={<HomeJ />}></Route>
+        <Route extact path="/Skill" element={<HomeS />}></Route>
+        <Route extact path="/Process" element={<HomeA />}></Route>
+        <Route extact path="/Reason" element={<HomeP />}></Route>
+        <Route extact path="/Ragister" element={<HomeI />}></Route>
+        <Route extact path="/NTTFrenchise" element={<HomeF />}></Route>
+        <Route extact path="/Topcenter" element={<HomeT />}></Route>
+      </Routes>
 
 
 
 
 
       {/* dashboard Routing */}
-      <HashRouter>
-        <Routes>
-          <Route extact path="/dashboard" element={<Dashboard />}></Route>
-          <Route extact path="/student" element={<Student />}></Route>
-        </Routes>
-      </HashRouter>
+      <Routes>
+        <Route extact path="/dashboard" element={<Dashboard />}></Route>
+        <Route extact path="/student" element={<Student />}></Route>
+      </Routes>
     </div>
   );
 }
