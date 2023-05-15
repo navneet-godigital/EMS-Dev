@@ -1,6 +1,6 @@
 {
+  "homepage": "https://navneet-godigital.github.io/EMS-Dev",
   "name": "ems",
-  "homepage": "",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -14,7 +14,6 @@
     "bootstrap": "^5.2.3",
     "cdbreact": "^1.5.14",
     "clickable-box": "^1.1.10",
-    "gh-pages": "^5.0.0",
     "jquery-ui-dist": "^1.13.2",
     "mdbreact": "^5.2.0",
     "react": "^18.2.0",
@@ -50,5 +49,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
