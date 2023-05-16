@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/EMS-Dev/static/css/main.4192cedc.css",
-    "main.js": "/EMS-Dev/static/js/main.2b389211.js",
+    "main.js": "/EMS-Dev/static/js/main.62cabf6a.js",
     "static/js/787.86ff2ebd.chunk.js": "/EMS-Dev/static/js/787.86ff2ebd.chunk.js",
     "static/media/hero-bg.jpg": "/EMS-Dev/static/media/hero-bg.f38bbcb2041b8255eb56.jpg",
     "static/media/bg.test.jpg": "/EMS-Dev/static/media/bg.test.637c13ae71c6782d7e47.jpg",
@@ -11,11 +11,11 @@
     "static/media/revicons.woff": "/EMS-Dev/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/EMS-Dev/index.html",
     "main.4192cedc.css.map": "/EMS-Dev/static/css/main.4192cedc.css.map",
-    "main.2b389211.js.map": "/EMS-Dev/static/js/main.2b389211.js.map",
+    "main.62cabf6a.js.map": "/EMS-Dev/static/js/main.62cabf6a.js.map",
     "787.86ff2ebd.chunk.js.map": "/EMS-Dev/static/js/787.86ff2ebd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4192cedc.css",
-    "static/js/main.2b389211.js"
+    "static/js/main.62cabf6a.js"
   ]
 }
