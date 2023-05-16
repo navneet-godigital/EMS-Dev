@@ -8,7 +8,7 @@ import * as ReactDOM from "react-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-ReactDOM.render(
+root.render(
   <React.StrictMode>
     <HashRouter>
       <App />
