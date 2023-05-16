@@ -30,7 +30,7 @@ function App() {
     <div>
       {/* Website Routing */}
       <Routes>
-        <Route extact path="/EMS-Dev" element={<Home />}></Route>
+        <Route extact path="/" element={<Home />}></Route>
         <Route extact path="/Aboutus" element={<Home1 />}></Route>
         <Route extact path="/OurAim" element={<Home2 />}></Route>
         <Route extact path="/Gallery" element={<Home4 />}></Route>
