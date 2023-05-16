@@ -153,10 +153,10 @@ function Services() {
                                                             <div className="view view-first">
                                                                 <div className="icon-div"><img src="../img/Services/className-home-work-icon.webp" width="" height="" alt="classNameWORK & HOMEWORK" /></div>
                                                                 <div className="titel-line"></div>
-                                                                <div className="titel-text">classNamework and Homework</div>
+                                                                <div className="titel-text">classwork and Homework</div>
                                                                 <div className="text-details">Teachers can easily create assignments and distribute them to students, while students will...</div>
                                                                 <div className="mask">
-                                                                    <h2>classNamework and Homework</h2>
+                                                                    <h2>classwork and Homework</h2>
                                                                     <div className="titel-line"></div>
                                                                     <p>Teachers can easily create assignments and distribute them to students, while students will get notified and can view and submit their work online using our mobile app. </p>
                                                                     <a href="https://www.geniusedusoft.com/school-management-system/virtual-classNameroom.html" className="info">Read More...</a>
