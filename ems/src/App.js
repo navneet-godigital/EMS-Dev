@@ -6,7 +6,7 @@ import AddStudent from './Component/AddStudent'
 import EditStudent from './Component/EditStudent';
 
 //Home page
-import './Website.css'
+// import './Website.css'
 import Home from './Website/Home';
 import Home1 from './Website/About/AboutUs/Home1';
 import Home2 from './Website/About/OurAim/Home2';
@@ -58,7 +58,7 @@ function App() {
 
 
       {/* dashboard Routing */}
-       <Routes>
+      <Routes>
         <Route extact path="/dashboard" element={<Dashboard />}></Route>
         <Route extact path="/student" element={<Student />}></Route>
         <Route extact path="/addstudent" element={<AddStudent />}></Route>

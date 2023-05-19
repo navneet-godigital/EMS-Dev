@@ -115,19 +115,21 @@ main {
   margin: 15px 0px;
   overflow: scroll;
   width: 100%;
-  height: 39%;
+  height: 47%;
 }
 
 .table>thead {
   background: #1188A6;
   color: #fff;
   font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
 }
 
 .table>tbody {
   vertical-align: inherit;
   background: #1188a629;
   font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
 }
 
 input[type=checkbox],
