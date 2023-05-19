@@ -1,10 +1,12 @@
-import './dashboard.css'
+
 import { Routes, Route } from 'react-router-dom';
 import Dashboard from './Component/Dashboard'
 import Student from './Component/Student';
+import ZoomClass from './Component/ZoomClass';
+import Onlineclass from './Component/Onlineclass';
 
 //Home page
-import './Website.css'
+// import './Website.css'
 import Home from './Website/Home';
 import Home1 from './Website/About/AboutUs/Home1';
 import Home2 from './Website/About/OurAim/Home2';
@@ -59,6 +61,8 @@ function App() {
       <Routes>
         <Route extact path="/dashboard" element={<Dashboard />}></Route>
         <Route extact path="/student" element={<Student />}></Route>
+        <Route extact path="/zoomclass" element={<ZoomClass />}></Route>
+        <Route extact path="/onlineclass" element={<Onlineclass />}></Route>
       </Routes>
     </div>
   );

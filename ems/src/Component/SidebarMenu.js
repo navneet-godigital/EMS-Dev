@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './dashboard.css'
 import {
     FaTh,
     FaBars,
@@ -10,6 +11,7 @@ import {
     FaWallet,
     FaRegMoneyBillAlt,
     FaCamera,
+    FaVideo,
     FaLock,
     FaBook
 } from "react-icons/fa";
@@ -76,9 +78,9 @@ const Sidebar = ({ children }) => {
             icon: <FaBook />
         },
         {
-            path: "/",
-            name: "Zoom LiveClasses",
-            icon: <FaCamera />
+            path: "/zoomclass",
+            name: "Online Classes",
+            icon: <FaVideo />
         },
         {
             path: "/",
