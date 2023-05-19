@@ -2,6 +2,8 @@ import './dashboard.css'
 import { Routes, Route } from 'react-router-dom';
 import Dashboard from './Component/Dashboard'
 import Student from './Component/Student';
+import AddStudent from './Component/AddStudent'
+import EditStudent from './Component/EditStudent';
 
 //Home page
 import './Website.css'
@@ -56,9 +58,11 @@ function App() {
 
 
       {/* dashboard Routing */}
-      <Routes>
+       <Routes>
         <Route extact path="/dashboard" element={<Dashboard />}></Route>
         <Route extact path="/student" element={<Student />}></Route>
+        <Route extact path="/addstudent" element={<AddStudent />}></Route>
+        <Route extact path="/editstudent" element={<EditStudent />}></Route>
       </Routes>
     </div>
   );

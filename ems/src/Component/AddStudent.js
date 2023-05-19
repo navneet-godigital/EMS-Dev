@@ -42,8 +42,8 @@ function AddStudent() {
                     <Row>
                         <Col>
                             <Form.Group>
-                                <Form.Label>className</Form.Label>
-                                <Form.Control placeholder='className' />
+                                <Form.Label>Class</Form.Label>
+                                <Form.Control placeholder='Class' />
                             </Form.Group>
                         </Col>
                         <Col>
