@@ -2,8 +2,13 @@
 import { Routes, Route } from 'react-router-dom';
 import Dashboard from './Component/Dashboard'
 import Student from './Component/Student';
+<<<<<<< HEAD
 import ZoomClass from './Component/ZoomClass';
 import Onlineclass from './Component/Onlineclass';
+=======
+import AddStudent from './Component/AddStudent'
+import EditStudent from './Component/EditStudent';
+>>>>>>> 150ab853269459f5e49aba8a39452501bfefedd5
 
 //Home page
 // import './Website.css'
@@ -61,8 +66,13 @@ function App() {
       <Routes>
         <Route extact path="/dashboard" element={<Dashboard />}></Route>
         <Route extact path="/student" element={<Student />}></Route>
+<<<<<<< HEAD
         <Route extact path="/zoomclass" element={<ZoomClass />}></Route>
         <Route extact path="/onlineclass" element={<Onlineclass />}></Route>
+=======
+        <Route extact path="/addstudent" element={<AddStudent />}></Route>
+        <Route extact path="/editstudent" element={<EditStudent />}></Route>
+>>>>>>> 150ab853269459f5e49aba8a39452501bfefedd5
       </Routes>
     </div>
   );

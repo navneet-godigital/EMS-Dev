@@ -56,8 +56,7 @@ main {
 
 .NavButton {
   background-color: #1D444B;
-  padding: 15px 32px;
-  display: inline-block;
+  padding: 15px 15px;
   margin-bottom: 10px;
 }
 
@@ -105,30 +104,32 @@ main {
 
 .list {
   margin: 0px 0px;
-  padding: 25px 22px 20px;
-  background: #1d444b;
-  color: #fff;
+  padding: 15px 18px 15px;
+  background: #ffffff;
   border-radius: 0px;
   font-family: 'Montserrat', sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .tableList {
   margin: 15px 0px;
   overflow: scroll;
   width: 100%;
-  height: 43.5%;
+  height: 47%;
 }
 
 .table>thead {
   background: #1188A6;
   color: #fff;
   font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
 }
 
 .table>tbody {
   vertical-align: inherit;
   background: #1188a629;
   font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
 }
 
 input[type=checkbox],
@@ -186,28 +187,4 @@ input[type=radio] {
   background-color: #a0c7e4;
   box-shadow: none;
   color: #2c5777;
-}
-
-.BUTTON {
-  padding: 11px;
-  padding-left: 50px;
-  padding-right: 50px;
-  font-size: 20px;
-  font-weight: 600;
-}
-
-/* zoom class csss */
-.nav-tabs .nav-link.active {
-  color: var(--bs-nav-tabs-link-active-color);
-  background-color: var(--bs-nav-tabs-link-active-bg);
-  border-color: var(--bs-nav-tabs-link-active-border-color);
-  font-size: 20px;
-  font-weight: 600;
-}
-
-.form-control {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2rem;
-  font-weight: 500;
-  border: 1px solid #1188a629;
 }

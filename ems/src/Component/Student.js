@@ -2,7 +2,12 @@ import React from 'react'
 import { Row, Col, Table, Button } from "react-bootstrap"
 import { FiEdit, FiLogIn } from "react-icons/fi";
 import { MdDelete } from "react-icons/md";
+<<<<<<< HEAD
 import { FaEyeSlash, FaRegUserCircle } from "react-icons/fa";
+=======
+import { FaEyeSlash, FaRegUserCircle, FaRegEdit } from "react-icons/fa";
+import { AiOutlineMenu } from "react-icons/ai";
+>>>>>>> 150ab853269459f5e49aba8a39452501bfefedd5
 import Sidebar from './SidebarMenu';
 import { NavLink } from 'react-router-dom';
 
@@ -11,6 +16,7 @@ const Student = () => {
     return (
         <>
             <Sidebar>
+<<<<<<< HEAD
                 <div className='NavButton row'>
                     <button class="button-8 col-2" role="button">Totel Student: 43</button>&nbsp;
                     <button class="button-8 col-2">Pending Student: 0</button>&nbsp;
@@ -39,6 +45,39 @@ const Student = () => {
 
 
                 <div className='tableList'>
+=======
+                <div className='NavButton'>
+                    <button class="button-8" role="button">Totel Student: 43</button>&nbsp;
+                    <button class="button-8">Pending Student: 0</button>&nbsp;
+                    <button class="button-8" >Fees Submit for Student: 43</button>&nbsp;
+                    <button class="button-8">Advance Wallet Balance: Rs5100</button>&nbsp;
+                    <div className='float-end'>
+                        <FaRegUserCircle color="#ffffff" fontSize="2.1em" />
+                        <h5 class="d-inline" style={{ fontSize: '17px' }}>User Name hfvhfdvi</h5>
+                    </div>
+                </div >
+
+                <div className='list m-2'>
+                    <FaRegEdit color="#A09E9D" fontSize="2.1em" />
+                    <h5 class="d-inline" style={{ color: "#A09E9D", fontSize: '20px' }}>Manage Student</h5>
+                    <div className='float-end'>
+                        <button class="button-8" role="button">Export Students</button>&nbsp;
+                        <button class="button-8">Print Student Id Card</button>&nbsp;
+                        <button class="button-8" >Print Student Admit Card</button>&nbsp;
+                        <button class="button-8">Copy Student to another category</button>&nbsp;
+                    </div>
+                </div >
+
+
+                <div className='NavButton1'>
+                    <button class="button-9" role="button"><AiOutlineMenu color="white" fontSize="1.2em" />Totel Student: 43</button>
+                    <AiOutlineMenu color="white" /><button class="button-9">Pending Student: 0</button>
+                    <button class="button-9" >Fees Submit for Student: 43</button>
+                    <button class="button-9">Advance Wallet Balance: Rs5100</button>
+                </div>
+
+                <div className='tableList pl-2'>
+>>>>>>> 150ab853269459f5e49aba8a39452501bfefedd5
                     <Table style={{ width: "120%" }}>
                         <thead>
                             <tr>
