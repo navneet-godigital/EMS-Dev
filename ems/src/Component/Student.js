@@ -2,12 +2,8 @@ import React from 'react'
 import { Row, Col, Table, Button } from "react-bootstrap"
 import { FiEdit, FiLogIn } from "react-icons/fi";
 import { MdDelete } from "react-icons/md";
-<<<<<<< HEAD
-import { FaEyeSlash, FaRegUserCircle } from "react-icons/fa";
-=======
 import { FaEyeSlash, FaRegUserCircle, FaRegEdit } from "react-icons/fa";
 import { AiOutlineMenu } from "react-icons/ai";
->>>>>>> 150ab853269459f5e49aba8a39452501bfefedd5
 import Sidebar from './SidebarMenu';
 import { NavLink } from 'react-router-dom';
 
@@ -16,7 +12,6 @@ const Student = () => {
     return (
         <>
             <Sidebar>
-<<<<<<< HEAD
                 <div className='NavButton row'>
                     <button class="button-8 col-2" role="button">Totel Student: 43</button>&nbsp;
                     <button class="button-8 col-2">Pending Student: 0</button>&nbsp;
@@ -44,8 +39,7 @@ const Student = () => {
                 </div >
 
 
-                <div className='tableList'>
-=======
+                
                 <div className='NavButton'>
                     <button class="button-8" role="button">Totel Student: 43</button>&nbsp;
                     <button class="button-8">Pending Student: 0</button>&nbsp;
@@ -77,7 +71,6 @@ const Student = () => {
                 </div>
 
                 <div className='tableList pl-2'>
->>>>>>> 150ab853269459f5e49aba8a39452501bfefedd5
                     <Table style={{ width: "120%" }}>
                         <thead>
                             <tr>
@@ -699,8 +692,8 @@ const Student = () => {
                     </Table>
                 </div >
             </Sidebar>
-        </>
+        </>  
     )
 }
 
-export default Student
+export default Student;

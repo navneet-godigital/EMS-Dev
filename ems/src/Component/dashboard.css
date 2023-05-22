@@ -22,13 +22,12 @@ html,
 body {
   margin: 0;
   height: 100%;
-  overflow: hidden
+  overflow: hidden;
 }
 
 a:link {
   text-decoration: none;
 }
-
 
 * {
   margin: 0;
@@ -45,7 +44,6 @@ main {
   padding: 0px;
 }
 
-
 .sidebar {
   background: #1d444b;
   color: #fff;
@@ -55,7 +53,7 @@ main {
 }
 
 .NavButton {
-  background-color: #1D444B;
+  background-color: #1d444b;
   padding: 15px 32px;
   display: inline-block;
   margin-bottom: 10px;
@@ -100,7 +98,7 @@ main {
 .icon,
 .link_text {
   font-size: 15px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .list {
@@ -109,7 +107,7 @@ main {
   background: #1d444b;
   color: #fff;
   border-radius: 0px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .tableList {
@@ -119,49 +117,50 @@ main {
   height: 43.5%;
 }
 
-.table>thead {
-  background: #1188A6;
+.table > thead {
+  background: #1188a6;
   color: #fff;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
-.table>tbody {
+.table > tbody {
   vertical-align: inherit;
   background: #1188a629;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
-input[type=checkbox],
-input[type=radio] {
+input[type="checkbox"],
+input[type="radio"] {
   width: 40px;
   height: 15px;
 }
 
 .form-label {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin-top: 1rem;
 }
 
 .form-control {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .button-8 {
   background-color: #5484a7;
   border-radius: 3px;
   border: 1px solid #5484a7;
-  box-shadow: rgba(255, 255, 255, .7) 0 1px 0 0 inset;
+  box-shadow: rgba(255, 255, 255, 0.7) 0 1px 0 0 inset;
   box-sizing: border-box;
   color: #ffffff;
   cursor: pointer;
   display: inline-block;
-  font-family: -apple-system, system-ui, "Segoe UI", "Liberation Sans", sans-serif;
+  font-family: -apple-system, system-ui, "Segoe UI", "Liberation Sans",
+    sans-serif;
   font-size: 13px;
   font-weight: 400;
   line-height: 1.15385;
   margin: 0;
   outline: none;
-  padding: 8px .8em;
+  padding: 8px 0.8em;
   position: relative;
   text-align: center;
   text-decoration: none;
@@ -179,7 +178,7 @@ input[type=radio] {
 }
 
 .button-8:focus {
-  box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, 0.15);
 }
 
 .button-8:active {
@@ -190,47 +189,97 @@ input[type=radio] {
 
 /*  */
 
-nav>.nav.nav-tabs {
-
+nav > .nav.nav-tabs {
   border: none;
   color: #fff;
   background: #272e38;
   border-radius: 0;
-
+  margin-top: 8px;
 }
 
-nav>div a.nav-item.nav-link,
-nav>div a.nav-item.nav-link.active {
+nav > div a.nav-item.nav-link,
+nav > div a.nav-item.nav-link.active {
   border: none;
-  padding: 18px 25px;
+  margin-top: 12px;
   color: #fff;
   background: #272e38;
   border-radius: 0;
 }
 
-nav>div a.nav-item.nav-link.active:after {
+nav > div a.nav-item.nav-link.active:after {
   content: "";
   position: relative;
   bottom: -60px;
   left: -10%;
   border: 15px solid transparent;
-  border-top-color: #e74c3c;
+  border-top-color: #1188a629;
 }
 
 .tab-content {
   background: #fdfdfd;
   line-height: 25px;
   border: 1px solid #ddd;
-  border-top: 5px solid #e74c3c;
-  border-bottom: 5px solid #e74c3c;
+  border-top: 5px solid #2c5777;
+  border-bottom: 5px solid #2c5777;
   padding: 30px 25px;
 }
 
-nav>div a.nav-item.nav-link:hover,
-nav>div a.nav-item.nav-link:focus {
+nav > div a.nav-item.nav-link:hover,
+nav > div a.nav-item.nav-link:focus {
   border: none;
-  background: #e74c3c;
+  background: #1188a629;
   color: #fff;
-  border-radius: 0;
-  transition: background 0.20s linear;
+}
+
+.btn {
+  padding: 5px;
+  padding-left: 15px;
+  margin: 10px;
+  padding-right: 15px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-link {
+  position: relative;
+  display: block;
+  color: #673ab7 !important;
+  text-decoration: none;
+  background-color: #fff;
+  border: 1px solid #673ab7 !important;
+}
+
+.page-link:hover {
+  z-index: 2;
+  color: #fff !important;
+  background-color: #673ab7;
+  border-color: #024dbc;
+}
+
+.page-link:focus {
+  z-index: 3;
+  outline: 0;
+  box-shadow: none;
+}
+
+.pagination {
+  justify-content: right;
+}
+.react-datepicker__input-container {
+  margin: 10px;
+  width: 25%;
+}
+label {
+  margin-left: 8px;
+  font-size: 13px;
+}
+.form-control {
+  margin-left: 1%;
 }

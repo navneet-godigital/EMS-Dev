@@ -1,36 +1,32 @@
-
-import { Routes, Route } from 'react-router-dom';
-import Dashboard from './Component/Dashboard'
-import Student from './Component/Student';
-<<<<<<< HEAD
-import ZoomClass from './Component/ZoomClass';
-import Onlineclass from './Component/Onlineclass';
-=======
-import AddStudent from './Component/AddStudent'
-import EditStudent from './Component/EditStudent';
->>>>>>> 150ab853269459f5e49aba8a39452501bfefedd5
+import { Routes, Route } from "react-router-dom";
+import Dashboard from "./Component/Dashboard";
+import Student from "./Component/Student";
+import ZoomClass from "./Component/ZoomClass";
+import Onlineclass from "./Component/Onlineclass";
+import AddStudent from "./Component/AddStudent";
+import EditStudent from "./Component/EditStudent";
 
 //Home page
-// import './Website.css'
-import Home from './Website/Home';
-import Home1 from './Website/About/AboutUs/Home1';
-import Home2 from './Website/About/OurAim/Home2';
-import Home3 from './Website/Contacts/Home3';
-import Home4 from './Website/Gallery/Home4';
-import HomeR from './Website/Course/Software/HomeR';
-import Home6 from './Website/Students/Home6';
-import Home7 from './Website/Students/Book/Home7';
-import Home8 from './Website/Students/Logins/Home8';
-import Hero9 from './Website/Students/Placement/Hero9';
-import Home10 from './Website/Students/Query/Home10';
-import HomeH from './Website/Course/Hardware/HomeH';
-import HomeJ from './Website/Course/Jobcourse/HomeJ';
-import HomeS from './Website/Course/skill/HomeS';
-import HomeA from './Website/Process/HomeA';
-import HomeP from './Website/Process/Reason/HomeP';
-import HomeI from './Website/Process/Ragister/HomeI';
-import HomeF from './Website/Process/NTTFrenchise/HomeF';
-import HomeT from './Website/Process/Topcenter/HomeT';
+import "./Website.css";
+import Home from "./Website/Home";
+import Home1 from "./Website/About/AboutUs/Home1";
+import Home2 from "./Website/About/OurAim/Home2";
+import Home3 from "./Website/Contacts/Home3";
+import Home4 from "./Website/Gallery/Home4";
+import HomeR from "./Website/Course/Software/HomeR";
+import Home6 from "./Website/Students/Home6";
+import Home7 from "./Website/Students/Book/Home7";
+import Home8 from "./Website/Students/Logins/Home8";
+import Hero9 from "./Website/Students/Placement/Hero9";
+import Home10 from "./Website/Students/Query/Home10";
+import HomeH from "./Website/Course/Hardware/HomeH";
+import HomeJ from "./Website/Course/Jobcourse/HomeJ";
+import HomeS from "./Website/Course/skill/HomeS";
+import HomeA from "./Website/Process/HomeA";
+import HomeP from "./Website/Process/Reason/HomeP";
+import HomeI from "./Website/Process/Ragister/HomeI";
+import HomeF from "./Website/Process/NTTFrenchise/HomeF";
+import HomeT from "./Website/Process/Topcenter/HomeT";
 
 function App() {
   return (
@@ -58,21 +54,14 @@ function App() {
         <Route extact path="/Topcenter" element={<HomeT />}></Route>
       </Routes>
 
-
-
-
-
       {/* dashboard Routing */}
       <Routes>
         <Route extact path="/dashboard" element={<Dashboard />}></Route>
         <Route extact path="/student" element={<Student />}></Route>
-<<<<<<< HEAD
         <Route extact path="/zoomclass" element={<ZoomClass />}></Route>
         <Route extact path="/onlineclass" element={<Onlineclass />}></Route>
-=======
         <Route extact path="/addstudent" element={<AddStudent />}></Route>
         <Route extact path="/editstudent" element={<EditStudent />}></Route>
->>>>>>> 150ab853269459f5e49aba8a39452501bfefedd5
       </Routes>
     </div>
   );
