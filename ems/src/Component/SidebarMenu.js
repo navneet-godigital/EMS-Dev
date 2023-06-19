@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import './dashboard.css'
 import {
     FaTh,
     FaBars,
@@ -10,11 +9,13 @@ import {
     FaRegEnvelope,
     FaWallet,
     FaRegMoneyBillAlt,
-    FaCamera,
     FaVideo,
     FaLock,
-    FaBook
+    FaBook,
+    FaCertificate,
+    FaPhoneAlt
 } from "react-icons/fa";
+import { GoListOrdered } from "react-icons/go"
 import { NavLink } from 'react-router-dom';
 
 
@@ -38,12 +39,7 @@ const Sidebar = ({ children }) => {
             icon: <FaBook />
         },
         {
-            path: "/final-exam-request",
-            name: "Final Exam",
-            icon: <FaBook />
-        },
-        {
-            path: "/final-exam-request",
+            path: "/addQuestion",
             name: "Add Question",
             icon: <FaQuestionCircle />
         },
@@ -52,56 +48,81 @@ const Sidebar = ({ children }) => {
             name: "Notice",
             icon: <FaListOl />
         },
+        // {
+        //     path: "/inbox",
+        //     name: "Inbox",
+        //     icon: <FaEnvelope />
+        // },
         {
-            path: "/inbox",
-            name: "Inbox",
-            icon: <FaEnvelope />
-        },
-        {
-            path: "/",
+            path: "/contact",
             name: "Contact",
             icon: <FaRegEnvelope />
         },
         {
-            path: "/",
+            path: "/wallet",
             name: "Wallet",
             icon: <FaWallet />
         },
         {
-            path: "/",
+            path: "/feesmanagement",
             name: "Fees Management",
             icon: <FaRegMoneyBillAlt />
         },
         {
-            path: "/",
+            path: "/allTest",
             name: "All Test",
             icon: <FaBook />
         },
         {
-            path: "/zoomclass",
+            path: "/onlineClass",
             name: "Online Classes",
             icon: <FaVideo />
         },
+        // {
+        //     path: "/",
+        //     name: "Gmeet Live Classes",
+        //     icon: <FaCamera />
+        // },
         {
-            path: "/",
-            name: "Gmeet Live Classes",
-            icon: <FaCamera />
-        },
-        {
-            path: "/",
+            path: "/message",
             name: "Message",
             icon: <FaEnvelope />
         },
         {
-            path: "/",
+            path: "/user",
             name: "Users",
             icon: <FaUserAlt />
         },
         {
-            path: "/",
+            path: "/changepassword",
             name: "Change Password",
             icon: <FaLock />
-        }
+        },
+        {
+            path: "/enquiry",
+            name: "Enquiry",
+            icon: <FaPhoneAlt />
+        },
+        {
+            path: "/bookManagement",
+            name: "Book Management",
+            icon: <FaBook />
+        },
+        {
+            path: "/scr",
+            name: "SCR",
+            icon: <FaBook />
+        },
+        {
+            path: "/topCentersList",
+            name: "Top Centers List",
+            icon: <GoListOrdered />
+        },
+        // {
+        //     path: "/",
+        //     name: "Center Certificate List",
+        //     icon: <FaCertificate />
+        // },
     ]
     return (
         <div className="sidebarMenu">

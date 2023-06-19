@@ -64,24 +64,28 @@ function Dashboard() {
                             </NavLink>
                         </div>
                         <div className="col-6 mt-2 col-md-2 mt-md-4">
-                            <div className="shadow text-white card p-2" style={{ backgroundColor: "#1188A6" }}>
-                                <div className="d-flex align-items-center">
-                                    <div className="mt-2 mb-3 w-100">
-                                        <h1 className="mb-0 mt-0 textLeft"><FcInspection /> </h1>
-                                        <span className="link_text text-center">Exam</span>
+                            <NavLink to="/exam">
+                                <div className="shadow text-white card p-2" style={{ backgroundColor: "#1188A6" }}>
+                                    <div className="d-flex align-items-center">
+                                        <div className="mt-2 mb-3 w-100">
+                                            <h1 className="mb-0 mt-0 textLeft"><FcInspection /> </h1>
+                                            <span className="link_text text-center">Exam</span>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
+                            </NavLink>
                         </div>
                         <div className="col-6 mt-2 col-md-2 mt-md-4">
-                            <div className="shadow text-white card p-2" style={{ backgroundColor: "#1188A6" }}>
-                                <div className="d-flex align-items-center">
-                                    <div className="mt-2 mb-3 w-100">
-                                        <h1 className="mb-0 mt-0 textLeft"><FcQuestions /> </h1>
-                                        <span className="link_text text-center">Add Question</span>
+                            <NavLink to="/addQuestion">
+                                <div className="shadow text-white card p-2" style={{ backgroundColor: "#1188A6" }}>
+                                    <div className="d-flex align-items-center">
+                                        <div className="mt-2 mb-3 w-100">
+                                            <h1 className="mb-0 mt-0 textLeft"><FcQuestions /> </h1>
+                                            <span className="link_text text-center">Add Question</span>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
+                            </NavLink>
                         </div>
                         <div className="col-6 mt-2 col-md-2 mt-md-4">
                             <div className="shadow text-white card p-2" style={{ backgroundColor: "#1188A6" }}>
@@ -94,114 +98,124 @@ function Dashboard() {
                             </div>
                         </div>
                         <div className="col-6 mt-2 col-md-2 mt-md-4">
-                            <div className="shadow text-white card p-2" style={{ backgroundColor: "#1188A6" }}>
-                                <div className="d-flex align-items-center">
-                                    <div className="mt-2 mb-3 w-100">
-                                        <h1 className="mb-0 mt-0 textLeft"><FcCollaboration /> </h1>
-                                        <span className="link_text text-center">Inbox</span>
+                            <NavLink to="/contact">
+                                <div className="shadow text-white card p-2" style={{ backgroundColor: "#1188A6" }}>
+                                    <div className="d-flex align-items-center">
+                                        <div className="mt-2 mb-3 w-100">
+                                            <h1 className="mb-0 mt-0 textLeft"><FcBusinessContact /> </h1>
+                                            <span className="link_text text-center">Contact</span>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
+                            </NavLink>
                         </div>
                         <div className="col-6 mt-2 col-md-2 mt-md-4">
-                            <div className="shadow text-white card p-2" style={{ backgroundColor: "#1188A6" }}>
-                                <div className="d-flex align-items-center">
-                                    <div className="mt-2 mb-3 w-100">
-                                        <h1 className="mb-0 mt-0 textLeft"><FcBusinessContact /> </h1>
-                                        <span className="link_text text-center">Contact</span>
+                            <NavLink to="/wallet">
+                                <div className="shadow text-white card p-2" style={{ backgroundColor: "#1188A6" }}>
+                                    <div className="d-flex align-items-center">
+                                        <div className="mt-2 mb-3 w-100">
+                                            <h1 className="mb-0 mt-0 textLeft"><GiWallet /> </h1>
+                                            <span className="link_text text-center">Wallet</span>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
+                            </NavLink>
                         </div>
                         <div className="col-6 mt-2 col-md-2 mt-md-4">
-                            <div className="shadow text-white card p-2" style={{ backgroundColor: "#1188A6" }}>
-                                <div className="d-flex align-items-center">
-                                    <div className="mt-2 mb-3 w-100">
-                                        <h1 className="mb-0 mt-0 textLeft"><GiWallet /> </h1>
-                                        <span className="link_text text-center">Wallet</span>
+                            <NavLink to="/allTest">
+                                <div className="shadow text-white card p-2" style={{ backgroundColor: "#1188A6" }}>
+                                    <div className="d-flex align-items-center">
+                                        <div className="mt-2 mb-3 w-100">
+                                            <h1 className="mb-0 mt-0 textLeft"><FcInspection /> </h1>
+                                            <span className="link_text text-center">All Test</span>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
+                            </NavLink>
                         </div>
                         <div className="col-6 mt-2 col-md-2 mt-md-4">
-                            <div className="shadow text-white card p-2" style={{ backgroundColor: "#1188A6" }}>
-                                <div className="d-flex align-items-center">
-                                    <div className="mt-2 mb-3 w-100">
-                                        <h1 className="mb-0 mt-0 textLeft"><FcInspection /> </h1>
-                                        <span className="link_text text-center">All Test</span>
+                            <NavLink to="/message">
+                                <div className="shadow text-white card p-2" style={{ backgroundColor: "#1188A6" }}>
+                                    <div className="d-flex align-items-center">
+                                        <div className="mt-2 mb-3 w-100">
+                                            <h1 className="mb-0 mt-0 textLeft"><FcFeedback /> </h1>
+                                            <span className="link_text text-center">Message</span>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
+                            </NavLink>
                         </div>
                         <div className="col-6 mt-2 col-md-2 mt-md-4">
-                            <div className="shadow text-white card p-2" style={{ backgroundColor: "#1188A6" }}>
-                                <div className="d-flex align-items-center">
-                                    <div className="mt-2 mb-3 w-100">
-                                        <h1 className="mb-0 mt-0 textLeft"><FcFeedback /> </h1>
-                                        <span className="link_text text-center">Message</span>
+                            <NavLink to="/user">
+                                <div className="shadow text-white card p-2" style={{ backgroundColor: "#1188A6" }}>
+                                    <div className="d-flex align-items-center">
+                                        <div className="mt-2 mb-3 w-100">
+                                            <h1 className="mb-0 mt-0 textLeft"><FcBusinessman /> </h1>
+                                            <span className="link_text text-center">Users</span>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
+                            </NavLink>
                         </div>
                         <div className="col-6 mt-2 col-md-2 mt-md-4">
-                            <div className="shadow text-white card p-2" style={{ backgroundColor: "#1188A6" }}>
-                                <div className="d-flex align-items-center">
-                                    <div className="mt-2 mb-3 w-100">
-                                        <h1 className="mb-0 mt-0 textLeft"><FcBusinessman /> </h1>
-                                        <span className="link_text text-center">Users</span>
+                            <NavLink to="/changepassword">
+                                <div className="shadow text-white card p-2" style={{ backgroundColor: "#1188A6" }}>
+                                    <div className="d-flex align-items-center">
+                                        <div className="mt-2 mb-3 w-100">
+                                            <h1 className="mb-0 mt-0 textLeft"><TbPassword /> </h1>
+                                            <span className="link_text text-center">Change Password</span>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
+                            </NavLink>
                         </div>
                         <div className="col-6 mt-2 col-md-2 mt-md-4">
-                            <div className="shadow text-white card p-2" style={{ backgroundColor: "#1188A6" }}>
-                                <div className="d-flex align-items-center">
-                                    <div className="mt-2 mb-3 w-100">
-                                        <h1 className="mb-0 mt-0 textLeft"><TbPassword /> </h1>
-                                        <span className="link_text text-center">Change Password</span>
+                            <NavLink to="/enquiry">
+                                <div className="shadow text-white card p-2" style={{ backgroundColor: "#1188A6" }}>
+                                    <div className="d-flex align-items-center">
+                                        <div className="mt-2 mb-3 w-100">
+                                            <h1 className="mb-0 mt-0 textLeft"><FcFeedback /> </h1>
+                                            <span className="link_text text-center">Enquiry Management</span>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
+                            </NavLink>
                         </div>
                         <div className="col-6 mt-2 col-md-2 mt-md-4">
-                            <div className="shadow text-white card p-2" style={{ backgroundColor: "#1188A6" }}>
-                                <div className="d-flex align-items-center">
-                                    <div className="mt-2 mb-3 w-100">
-                                        <h1 className="mb-0 mt-0 textLeft"><FcFeedback /> </h1>
-                                        <span className="link_text text-center">Enquiry Management</span>
+                            <NavLink to="/bookManagement">
+                                <div className="shadow text-white card p-2" style={{ backgroundColor: "#1188A6" }}>
+                                    <div className="d-flex align-items-center">
+                                        <div className="mt-2 mb-3 w-100">
+                                            <h1 className="mb-0 mt-0 textLeft"><FcReading /> </h1>
+                                            <span className="link_text text-center">Book Management</span>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
+                            </NavLink>
                         </div>
                         <div className="col-6 mt-2 col-md-2 mt-md-4">
-                            <div className="shadow text-white card p-2" style={{ backgroundColor: "#1188A6" }}>
-                                <div className="d-flex align-items-center">
-                                    <div className="mt-2 mb-3 w-100">
-                                        <h1 className="mb-0 mt-0 textLeft"><FcReading /> </h1>
-                                        <span className="link_text text-center">Book Management</span>
+                            <NavLink to="/">
+                                <div className="shadow text-white card p-2" style={{ backgroundColor: "#1188A6" }}>
+                                    <div className="d-flex align-items-center">
+                                        <div className="mt-2 mb-3 w-100">
+                                            <h1 className="mb-0 mt-0 textLeft"><FcReadingEbook /> </h1>
+                                            <span className="link_text text-center">Ebooks by Head Office</span>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
+                            </NavLink>
                         </div>
                         <div className="col-6 mt-2 col-md-2 mt-md-4">
-                            <div className="shadow text-white card p-2" style={{ backgroundColor: "#1188A6" }}>
-                                <div className="d-flex align-items-center">
-                                    <div className="mt-2 mb-3 w-100">
-                                        <h1 className="mb-0 mt-0 textLeft"><FcReadingEbook /> </h1>
-                                        <span className="link_text text-center">Ebooks by Head Office</span>
+                            <NavLink to="/scr">
+                                <div className="shadow text-white card p-2" style={{ backgroundColor: "#1188A6" }}>
+                                    <div className="d-flex align-items-center">
+                                        <div className="mt-2 mb-3 w-100">
+                                            <h1 className="mb-0 mt-0 textLeft"><GiWhiteBook /> </h1>
+                                            <span className="link_text text-center">SCR</span>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div className="col-6 mt-2 col-md-2 mt-md-4">
-                            <div className="shadow text-white card p-2" style={{ backgroundColor: "#1188A6" }}>
-                                <div className="d-flex align-items-center">
-                                    <div className="mt-2 mb-3 w-100">
-                                        <h1 className="mb-0 mt-0 textLeft"><GiWhiteBook /> </h1>
-                                        <span className="link_text text-center">SCR</span>
-                                    </div>
-                                </div>
-                            </div>
+                            </NavLink>
                         </div>
                         <div className="col-6 mt-2 col-md-2 mt-md-4">
                             <div className="shadow text-white card p-2" style={{ backgroundColor: "#1188A6" }}>
@@ -248,37 +262,7 @@ function Dashboard() {
                                 <div className="d-flex align-items-center">
                                     <div className="mt-2 mb-3 w-100">
                                         <h1 className="mb-0 mt-0 textLeft"><GoDeviceDesktop /> </h1>
-                                        <span className="link_text text-center">Zoom Class</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-6 mt-2 col-md-2 mt-md-4">
-                            <div className="shadow text-white card p-2" style={{ backgroundColor: "#1188A6" }}>
-                                <div className="d-flex align-items-center">
-                                    <div className="mt-2 mb-3 w-100">
-                                        <h1 className="mb-0 mt-0 textLeft"><GoDeviceDesktop /> </h1>
-                                        <span className="link_text text-center">Zoom Meeting</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-6 mt-2 col-md-2 mt-md-4">
-                            <div className="shadow text-white card p-2" style={{ backgroundColor: "#1188A6" }}>
-                                <div className="d-flex align-items-center">
-                                    <div className="mt-2 mb-3 w-100">
-                                        <h1 className="mb-0 mt-0 textLeft"><GoDeviceDesktop /> </h1>
-                                        <span className="link_text text-center">Zoom Instant Meeting</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-6 mt-2 col-md-2 mt-md-4">
-                            <div className="shadow text-white card p-2" style={{ backgroundColor: "#1188A6" }}>
-                                <div className="d-flex align-items-center">
-                                    <div className="mt-2 mb-3 w-100">
-                                        <h1 className="mb-0 mt-0 textLeft"><GoDeviceDesktop /> </h1>
-                                        <span className="link_text text-center">Gmeet Live</span>
+                                        <span className="link_text text-center">Online Class</span>
                                     </div>
                                 </div>
                             </div>
@@ -334,14 +318,16 @@ function Dashboard() {
                             </div>
                         </div>
                         <div className="col-6 mt-2 col-md-2 mt-md-4">
-                            <div className="shadow text-white card p-2" style={{ backgroundColor: "#1188A6" }}>
-                                <div className="d-flex align-items-center">
-                                    <div className="mt-2 mb-3 w-100">
-                                        <h1 className="mb-0 mt-0 textLeft"><GiMoneyStack /> </h1>
-                                        <span className="link_text text-center">Fees Management</span>
+                            <NavLink to="/feesmanagement">
+                                <div className="shadow text-white card p-2" style={{ backgroundColor: "#1188A6" }}>
+                                    <div className="d-flex align-items-center">
+                                        <div className="mt-2 mb-3 w-100">
+                                            <h1 className="mb-0 mt-0 textLeft"><GiMoneyStack /> </h1>
+                                            <span className="link_text text-center">Fees Management</span>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
+                            </NavLink>
                         </div>
                     </div>
                 </div>
